@@ -39,6 +39,7 @@
           "A5": "3e6e6d57-ac3f-479a-963a-01362eabc709",
           "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
           "BL8": "716cafd7-c59a-4e15-b8d5-5b95c65d7784",
+          "BM1": 0,
           "BM4": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
@@ -68,12 +69,13 @@
           "A4": "716cafd7-c59a-4e15-b8d5-5b95c65d7784",
           "A5": "3e6e6d57-ac3f-479a-963a-01362eabc709",
           "IL2": "9bd33644-c702-4f27-a120-babcfe8d4b85",
-          "BL3": "146;184",
+          "BL3": "191;221",
           "BL7": "53818048-7868-48f6-ada0-0ebaa65af628",
           "BL8": "716cafd7-c59a-4e15-b8d5-5b95c65d7784",
           "BN2": "31;31",
           "BO3": true,
-          "FC1": []
+          "FC1": [],
+          "ED1": false
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaTerminateEvent",
@@ -83,7 +85,7 @@
           "A4": "716cafd7-c59a-4e15-b8d5-5b95c65d7784",
           "A5": "3e6e6d57-ac3f-479a-963a-01362eabc709",
           "IL2": "9bd33644-c702-4f27-a120-babcfe8d4b85",
-          "BL3": "446;184",
+          "BL3": "437;53",
           "BL7": "1bd93619-0574-454e-bb4e-cf53b9eb9470",
           "BL8": "716cafd7-c59a-4e15-b8d5-5b95c65d7784",
           "BN2": "31;31",
@@ -104,8 +106,14 @@
           "CI3": "null",
           "CI5": "FF939598",
           "CI6": 1,
-          "CI11": "177;200",
-          "CI12": "446;200"
+          "CI7": "1;0",
+          "CI8": "-1;0",
+          "CI11": "222;237",
+          "CI12": "437;69",
+          "CI10": {
+            "Item0": "326;237",
+            "Item1": "326;69"
+          }
         }
       ],
       "BK9": [],
@@ -113,7 +121,17 @@
       "BK29": true,
       "BK30": true,
       "BK34": "en-US",
-      "Labels": [],
+      "Labels": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaLabel",
+          "UId": "2a2650af-549b-73e8-377b-ef4fd4350e46",
+          "A2": "TerminateEvent1_label1",
+          "A3": "716cafd7-c59a-4e15-b8d5-5b95c65d7784",
+          "A4": "716cafd7-c59a-4e15-b8d5-5b95c65d7784",
+          "ParentUId": "ef6ea524-4cf5-4245-a539-3fc7be6f9450",
+          "X": -7
+        }
+      ],
       "BK24": []
     }
   }
