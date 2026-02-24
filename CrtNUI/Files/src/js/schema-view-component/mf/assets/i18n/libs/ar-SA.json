@@ -1,0 +1,2017 @@
+{
+  "DesktopSelector": {
+    "ShowDesktopSelector": "حدد سطح المكتب",
+    "EditDesktop": "تعديل سطح المكتب",
+    "UseHotkeys": "Use Ctrl+Shift+E to edit desktop"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "معلمات غير صالحة",
+    "ServiceResult": {
+      "ErrorMessage": "حدث خطأ. يرجى الاتصال بمسؤول النظام"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "الموسوم {{ count }} عنصر (عناصر)",
+      "RemoveTagsMessage": "غير الموسوم {{ count }} عنصر (عناصر)",
+      "AddTagsSuccessfulRunProcess": "بدأت عملية وضع العلامات السائبة للعنصر (العناصر) المختار(ة). قد يستغرق هذا بعض الوقت",
+      "RemoveTagsSuccessfulRunProcess": "بدأت عملية إزالة العلامات السائبة للعنصر (العناصر) المختار(ة). قد يستغرق هذا بعض الوقت"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "عدد السجل(ات) المضافة في المجلد(ات) {{ count }}",
+      "RemoveRecordsMessage": "عدد السجل(ات) المُزالة من المجلد(ات) {{ count }}"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "بدأ الإجراء بنجاح",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "يحتاج هذا الإجراء إلى سجل واحد على الأقل لتشغيله. الرجاء تحديد السجلات التي تريد تطبيقها والمحاولة مرة أخرى"
+    },
+    "ProcessStarted": "تم بدء العملية"
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "هل أنت متأكد من أنك تريد حذف السجل المحدد؟",
+    "DeleteRecordsConfirmation": "هل أنت متأكد من أنك تريد حذف السجلات المحددة؟?",
+    "SaveSummariesForAll": "Save summary settings for all users?",
+    "ResetSummaries": "Restore default summary settings?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "صلاحيات غير كافية لحذف السجلات في الكائن '{0}'",
+    "UnableToDeleteSelectedRecord": "تعذر حذف السجلات المحددة",
+    "SelectRecordsToDelete": "Select records to delete",
+    "SettingsErrorMessage": "Unable to execute the action.\n\rSystem administrator must check the button settings in the Freedom UI Designer.",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "You do not have permission to perform this operation.\nPlease contact your system administrator. Check access to the export object and permission to perform the system operation.",
+      "FileGenerationMessage": "Generating export file"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Insufficient permissions to access the change log. Contact your system administrator.",
+      "SourceIsNotSpecifiedMessage": "Object or data source is not specified for the action \"Open change log\". Contact your system administrator.",
+      "RecordIsNotSelectedMessage": "Select a record to open its change log.",
+      "ChangeLogIsNotTurnedOnTitle": "Turn on logging",
+      "ChangeLogIsNotTurnedOnMessage": "Logging is currently off for {0}. Do you want to turn logging on?",
+      "ChangeLogIsTurnedOffMessage": "Logging is currently off for {0}. Contact your system administrator.",
+      "RecordIsNotSavedMessage": "Save a record first to open its change log."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "{0} MB maximum file size limit exceeded.\n\r\n\r Files:\n- {1}",
+      "NoConnectedFileList": "The file upload destination is not set.\n\rPlease choose the destination in the button settings.",
+      "InvalidRequestParams": "Unable to upload the file(s) as the page component has not been set up yet. The system administrator can finish the setup in the Freedom UI designer.",
+      "ChangeFileSizeInfoMessage": "You can increase the maximum file size in the \"Attachment max size\" system setting.",
+      "FileListHeader": "الملفات",
+      "MaxFileSizeExceededExceptionMessage": "تم تجاوز الحد الأقصى لحجم الملف {0} ميجابايت.",
+      "UnknownServerError": "Something went wrong.\n\rPlease try uploading the file again.",
+      "AttachedToUnsavedRecord": "Unable to attach the files to the record that has not been created yet. Please create the record before uploading the files",
+      "InvalidExtension": {
+        "Deny": "تحظر إعدادات الأمان امتداد الملف [{0}]. إذا أردت العمل باستخدام ملفات مماثلة، يرجى الاتصال بمسؤول نظامك لإزالة الامتداد من إعدادت النظام [قائمة امتدادات الملفات المحظورة] (قائمة امتدادات الملفات المحظورة)",
+        "Allow": "تحظر إعدادات الأمان امتداد الملف [{0}]. إذا أردت العمل باستخدام ملفات مماثلة، يرجى الاتصال بمسؤول نظامك لإضافة الامتداد لإعدادت النظام [قائمة امتدادات الملفات المسموحة] (قائمة امتدادات الملفات المسموحة)"
+      },
+      "EmptyFileMessage": "You are trying to upload empty files.\n\rPlease choose files with content."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "تم تجاوز الحد الأقصى لحجم الملف {0} ميجابايت.",
+      "UnknownUploadError": "Unknown upload error. Please contact the system administrator.",
+      "Announcement": {
+        "Uploaded": "Image uploaded",
+        "Deleted": "Image deleted"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Action error.\nContact your system administrator. Check the action settings in System Designer."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Action error.\nContact your system administrator. Check the action settings in System Designer."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Select records to add tags",
+      "SelectRecordsToRemoveRecordsMessage": "Select records to remove tags"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Select records to add to the static folder",
+      "SelectRecordsToRemoveRecordsMessage": "Select records to remove from the static folder"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} file uploaded",
+      "Deleted": "{0} file deleted"
+    },
+    "OK": "حسنًا"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "إضافة علامة",
+    "RemoveTagCaption": "إزالة العلامة"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "The report can not be printed for unsaved record.",
+    "InvalidRequestCaption": "Action is not valid. Please check print settings.",
+    "SelectRecord": "Select record for printing report"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "It is not possible to move all selected records by this action, please select as many records as needed one by one"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "Changes discarded successfully"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Record deleted successfully"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "تم حذف السجلات بنجاح"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "لا توجد تقارير متاحة",
+    "GoToPrintablesSetupCaption": "اذهب للإبلاغ عن إعداد"
+  },
+  "IndicatorWidget": {
+    "NoData": "غير متوفر",
+    "AriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "ChartLegend": {
+    "Title": "Legend for {{chartTitle}} chart: use arrow keys to navigate and Enter key to open context menu."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} chart for \"{{chartTitle}}\" with {{groupsCount}} groups. The chart showing \"{{groupsNames}}\". X is \"{{xLabel}}\" from {{xMin}} to {{xMax}}. Y is \"{{yLabel}}\" from {{yMin}} to {{yMax}}. Use arrow keys to navigate.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Use Enter key to open context menu."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. The chart type is Gauge. Data ranges from {{ariaMin}} to {{ariaMax}}. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Expand fullscreen for \"{{title}}\" chart.",
+      "CollapseLabel": "Collapse fullscreen for \"{{title}}\" chart."
+    },
+    "Menu": {
+      "Caption": "Menu for \"{{title}}\" chart.",
+      "CreateDashboard": {
+        "Caption": "Create dashboard",
+        "UnableCreateMessage": "⚠️ Unable to create a dashboard. This page has no Dashboard component.\n\rYou can go to another page where the Dashboard component is already available.\n\r📘 Learn more about working with dashboards in the <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Academy</a>"
+      }
+    }
+  },
+  "Input": {
+    "Readonly": "حقل غير قابل للتعديل",
+    "ShowPassword": "عرض كلمة المرور",
+    "HidePassword": "إخفاء كلمة المرور"
+  },
+  "Carousel": {
+    "NoData": "لا توجد بيانات",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "حقل غير قابل للتعديل",
+    "InvalidValueSyntax": "يرجى تحديد قيمة من القائمة",
+    "NoData": "لا توجد بيانات",
+    "EmptyDisplayValue": "لا توجد قيمة عرض",
+    "AddNewRecord": "إضافة جديد",
+    "IsGoToSourceAllowedTooltip": "الذهاب لقائمة السجلات",
+    "CheckAll": "تحقق من الكل",
+    "ClearAll": "مسح الكل",
+    "SelectValue": "اختر قيمة",
+    "ClearValue": "مسح القيمة",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "إضافة أعمدة",
+    "ColumnToolbar": {
+      "Hide": "إخفاء",
+      "Freeze": "تجميد",
+      "Unfreeze": "إلغاء التجميد",
+      "Rename": "إعادة تسمية",
+      "Title": "إجراءات العمود",
+      "Edit": "خصائص",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "RowToolbar": {
+      "Open": "فتح",
+      "Copy": "نسخ",
+      "Delete": "حذف",
+      "RunBusinessProcess": "تشغيل العمليات الخاصة بالعمل",
+      "Title": "إجراءات الصف"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "Title": "قائمة الإجراءات",
+      "DataGridSettingsLabel": "إعدادات القائمة العامة",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default list settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "تم حفظ الإعدادات"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current list settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "تم حفظ الإعدادات"
+      },
+      "ResetDataGridSettings": {
+        "Label": "إعادة الضبط لإعدادات القائمة الافتراضية",
+        "Confirmation": "استعادة إعدادات القائمة الافتراضية؟",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "لا توجد بيانات",
+    "NoColumns": "لا توجد أعمدة مضافة",
+    "Hints": {
+      "Sort": "فرز",
+      "StartEditing": "تحرير",
+      "ReadonlyCell": "حقل غير قابل للتعديل",
+      "CancelChanges": "تجاهل",
+      "AddItem": "إضافة سجل جديد",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "SaveItemsChanges": "حفظ الكل",
+    "CancelItemsChanges": "تجاهل",
+    "AddItem": "جديد",
+    "BulkActions": {
+      "MoreActions": "مزيد من الإجراءات",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "المحدد",
+      "SelectAll": "تحديد الكل",
+      "ClearSelection": "ازل التحديد",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "لم يُعثر على العمود",
+    "ColumnSticky": "العمود المجمد",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "تغيير العرض",
+      "ChangeWidthOf": "Change width of {0}"
+    }
+  },
+  "Gallery": {
+    "NoData": "لا توجد بيانات",
+    "MenuActions": "الإجراءات",
+    "DateAdded": "Date added",
+    "SelectItem": "حدد العنصر",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "نعم",
+      "False": "لا"
+    }
+  },
+  "FileInput": {
+    "Delete": "حذف",
+    "Cancel": "إلغاء",
+    "Attach": "إرفاق",
+    "FileIcon": "أيقونة الملف",
+    "EmptyFileName": "اسم الملف فارغ",
+    "MaxFileSizeLimitReached": "بلغ حجم الملف الحد الأقصى ({0}ميجابايت)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "حفظ",
+    "CancelButton": "إلغاء",
+    "ColumnProperties": "خصائص العمود",
+    "Title": "العنوان",
+    "FilterHeader": "كيفية تصفية السجلات؟",
+    "SortingHeader": "Sort records",
+    "SortColumn": "فرز حسب",
+    "WhatToDisplay": "ماذا تريد عرضه",
+    "AggregationColumn": "العمود",
+    "SortOrder": "فرز الطلب",
+    "SetupFilters": "إعدادات الفلاتر",
+    "EditFilters": "Edit filters"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "إفلات الملفات هنا",
+      "Description": "أو استخدم",
+      "Upload": "رفع الملف"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "على",
+    "TodayAt": "اليوم في {0}",
+    "YesterdayAt": "أمس على الساعة {0}",
+    "DayBeforeYesterdayAt": "أول البارحة عند {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "لا توجد قيمة معروضة"
+  },
+  "WebInput": {
+    "LinkButtonHint": "فتح الرابط"
+  },
+  "EmailInput": {
+    "AddEmailHint": "أرسل بريدا إلكترونيا"
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "رفع",
+    "Clear": "حذف",
+    "Change": "تغيير",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "شهر",
+    "DaysAbbreviation": "يوم",
+    "HoursAbbreviation": "سا",
+    "MinutesAbbreviation": "دقيقة"
+  },
+  "TabPanel": {
+    "CloseTabHint": "إغلاق علامة التبويب"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "تشغيل العملية",
+      "SuccessMessage": "تم تشغيل العملية بنجاح",
+      "NotConfiguredQuickProcessesMessage": "لم تُكون العمليات السريعة بعد",
+      "OtherProcessesCaption": "العمليات الأخرى"
+    },
+    "Settings": {
+      "Title": "إعدادات"
+    },
+    "UserProfile": {
+      "Title": "ملف التعريف الخاص بك",
+      "MenuItems": {
+        "Profile": "ملف التعريف الخاص بك",
+        "Logout": "خروج",
+        "OrganizationProfile": "الصفحة الشخصية للمنظمة"
+      }
+    },
+    "New": {
+      "Title": "جديد",
+      "NoItemTitle": "لم يُكون إنشاء السجلات السريعة بعد"
+    },
+    "Help": {
+      "Title": "مساعدة",
+      "SupportSubject": "سؤال عن",
+      "MenuItems": {
+        "OnlineHelp": "مساعدة عبر الإنترنت",
+        "NeedHelp": "بحاجة إلى مساعدة",
+        "ExternalAccess": "منح حق الوصول إلى الدعم",
+        "ReleaseNotes": "كتابة ملاحظات"
+      },
+      "EmailBodyTemplate": "المضمون=%0D%0A%0D%0Aالموقع: {0}%0D%0AID معرّف العميل: {1}%0D%0Aالمنتج: {2}%0D%0Aالإصدار {3}%0D%0Aحجم الشاشة: {4}%0D%0Aالتوطين: {5}%0D%0Aالصفحة: {6}",
+      "AccessGrantedMessage": "تم منح حق الوصول",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "لوحة التواصل"
+    },
+    "NotificationsPanelButton": {
+      "Title": "لوحة الإشعارات"
+    },
+    "Logo": {
+      "Title": "انتقل إلى سطح المكتب"
+    },
+    "WorkspaceExplorer": {
+      "Title": "تهيئة"
+    },
+    "LegacySidePanelButton": {
+      "Title": "لوحة الإضافات"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "خطأ في التجميع",
+      "WorkspaceExplorerTemplate": "لعرض قائمة من أخطاء التجميع وإصلاحها، زر قسم التكوين <a href ='{0}' target='_blank'></a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "لوحة التنقل"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Routed to a regular application node. Do not use it for customization as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "البحث في التطبيق..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "تصغير لوحة التنقل",
+      "ExpandCaption": "توسيع لوحة التنقل"
+    },
+    "SearchResultsCaption": "نتائج البحث",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "اقرأ المزيد"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} انتهى",
+    "timeBeforeCountStartTpl": "{0} قبل بدء العد التنازلي",
+    "overdueTpl": "{0} تأخير",
+    "timeLeftTpl": "{0} متبقي",
+    "timeIsUpTpl": "انتهى الوقت",
+    "waitingForStartDateTpl": "في انتظار تاريخ البدء",
+    "dateNotSet": "0 ساعة 0دقيقة"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "الكل",
+      "SelectMenuLabel": "البحث حسب العمود",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "Dialog": {
+    "Ok": "حسنًا",
+    "Yes": "نعم",
+    "No": "لا",
+    "Save": "حفظ",
+    "DoNotSave": "لا تحفظ",
+    "Cancel": "إلغاء",
+    "Delete": "حذف",
+    "Close": "أغلق",
+    "Notification": "إشعار",
+    "Overwrite": "Overwrite",
+    "ProcessElementCompletedNotification": "أكمل مستخدمٌ آخر هذه المهمة",
+    "ProcessSchemaSavedWithValidationError": "تم حفظ مخطط العملية بنجاح، ولكن تمنع أخطاء التحقق من تشغيله."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "تم الحفظ بنجاح",
+      "ErrorOnSave": "خطأ عند محاولة تطبيق التغييرات"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "هل أنت متأكد من رغبتك في حذف سطح المكتب {0}؟",
+        "Error": {
+          "Deletion": "خطأ أثناء حذف سطح المكتب",
+          "Configuration": "خطأ أثناء بناء التكوين"
+        },
+        "Success": "تم حذف سطح المكتب \"{0}\" بنجاح"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "بحث..."
+  },
+  "AllowedResults": {
+    "Caption": "النتائج المسموح بها",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "الترخيص مطلوب"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "إضافة علامة",
+    "CreateNewTagButtonCaption": "إنشاء علامة جديدة"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "لديك تغييرات غير محفوظة ستُفقد. هل ترغب في المتابعة؟"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "تحرير السجل",
+    "DeleteItemActionButtonCaption": "حذف السجل",
+    "NoData": "لا توجد بيانات"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "لا توجد بيانات",
+      "CloseButtonTitle": "إغلاق"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "إزالة"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "كتاب الإرشادات",
+    "Hint": "يعرض هذا المكون تلميحات وتعليمات للمستخدمين للوصول إلى المعلومات من قاعدة المعارف بالنسبة لمراحل محددة من الحالات الدينامية",
+    "Placeholder": {
+      "Title": "لا توجد مقالات لعب ذات صلة",
+      "Description": "يرجى إعداد مقالة ذات صلة لمرحلة الحالة المتغيرة الحالية في قسم كتاب الإرشادات"
+    },
+    "Actions": {
+      "Back": "عودة",
+      "OpenInDialog": "فتح في نافذة المشروط"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "إغلاق",
+        "OpenPage": "فتح في علامة تبويب جديدة"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access."
+    },
+    "InputPlaceholder": "كتابة رسالة",
+    "SendButtonHint": "أرسل الرسالة (اضغط زر Enter)",
+    "Caption": "Message editor"
+  },
+  "ChatSettings": {
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "لا يمكن حذف القناة، هناك دردشة نشطة أو دردشة في التوزيع. يرجى إكمال الدردشة أولاً ثم المحاولة مرة أخرى."
+    },
+    "History": {
+      "Captions": {
+        "StartDate": "بدأت الدردشة: {0} بواسطة",
+        "EndDate": "اكتملت الدردشة: {0} بواسطة"
+      }
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "لا توجد بيانات",
+    "Boolean": {
+      "Yes": "نعم",
+      "No": "لا"
+    },
+    "String": {
+      "Placeholder": "أدخل النص"
+    },
+    "Numeric": {
+      "Placeholder": "أدخل رقم",
+      "To": "حتى",
+      "MaxValueError": "القيمة أعلى من الحد الأقصى",
+      "MinValueError": "القيمة أقل من الحد الأدنى"
+    }
+  },
+  "Conversation": {
+    "Caption": "المحادثة",
+    "Copilot": {
+      "TypingMessage": "توليد الاستجابة",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    },
+    "LoadPreviousChat": "Load previous chat"
+  },
+  "BulkActions": {
+    "Delete": "حذف",
+    "Export": "تصدير إلى إكسل",
+    "AddTag": "إضافة علامة",
+    "RemoveTag": "إزالة العلامة",
+    "RowsSelection": {
+      "Selected": "المحدد",
+      "SelectAll": "تحديد الكل",
+      "ClearSelection": "ازل التحديد"
+    },
+    "Merge": "دمج"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "الرقم"
+  },
+  "ExpansionPanel": {
+    "Collapse": "تصغير",
+    "Expand": "توسيع"
+  },
+  "ProgressBar": {
+    "AriaLabel": "شريط التقدّم"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "حالة الدردشة",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MarketingCampaignContent": {
+    "ValidateCampaignRequest": {
+      "StartDateRequiredMessage": "تحديد تاريخ ووقت بدء الحملة الإعلانية",
+      "StartDateLessThenNowMessage": "تاريخ ووقت بدء الحملة الإعلانية المجدولة قد انقضى بالفعل. الرجاء تعيين قيمة صحيحة",
+      "StopDateRequiredMessage": "تحديد تاريخ ووقت انتهاء الحملة الإعلانية",
+      "StopDateLessThenNowMessage": "تاريخ ووقت انتهاء الحملة الإعلانية المجدولة قد انقضى بالفعل. الرجاء تعيين قيمة صحيحة",
+      "StopDateLessThenStartDateMessage": "تاريخ انتهاء الحملة المجدولة قبل تاريخ البدء المجدول. الرجاء تعيين قيم صحيحة",
+      "StopDateLessThenNextFireTimeMessage": "تاريخ انتهاء الحملة المجدولة قبل بدء الحملة المجدولة التالية. الرجاء تعيين قيمة صحيحة"
+    },
+    "StopCampaignRequest": {
+      "StopConfirmationMessage": "هل أنت متأكد من رغبتك في إيقاف الحملة الإعلانية؟",
+      "SuccessMessage": "تم إيقاف الحملة بنجاح",
+      "ErrorMessage": "حدث خطأ أثناء عملية إيقاف الحملة"
+    },
+    "StartCampaignRequest": {
+      "ScheduleConfirmationMessage": "هل أنت متأكد من رغبتك في جدولة هذه الحملة؟",
+      "LaunchConfirmationMessage": "هل أنت متأكد من رغبتك في بدء هذه الحملة؟",
+      "SuccessMessage": "تم إطلاق الحملة بنجاح",
+      "ErrorMessage": "حدث خطأ أثناء عملية بدء الحملة"
+    },
+    "DeleteCampaignRequest": {
+      "HasAudienceMessage": "تعذّر حذف الحملة لأنها تشمل المشاركين",
+      "InStatusActiveMessage": "الحملة في حالة نشطة ولا يمكن حذفها. يرجى إيقاف الحملة قبل الحذف",
+      "InStatusStoppingMessage": "لا يمكن حذف الحملة الإعلانية في وضع التوقف. الرجاء الانتظار بعض الوقت حتى تتوقف الحملة قبل حذفها",
+      "InStatusScheduledMessage": "الحملة في حالة جدولة ولا يمكن حذفها. يرجى إيقاف الحملة قبل الحذف",
+      "MultipleHasAudienceMessage": "تعذّر حذف الحملات المحددة لأنها تحتوي على مشاركين",
+      "MultipleIncorrectStateMessage": "تعذّر حذف الحملات الإعلانية المحددة لأن بعضها في وضع غير صحيح"
+    }
+  },
+  "ObjectAccessRights": {
+    "OperationTypeGroup": {
+      "Read": "Permissions to read",
+      "Write": "Permissions to write",
+      "Delete": "Permissions to delete",
+      "Execute": "Permissions to execute"
+    },
+    "OperationType": {
+      "Read": "اقرأ",
+      "ReadWithDelegate": "Read with delegate",
+      "Write": "Write",
+      "WriteWithDelegate": "Write with delegate",
+      "Delete": "حذف",
+      "DeleteWithDelegate": "Delete with delegate",
+      "Execute": "تنفيذ",
+      "ExecuteWithDelegate": "Execute with delegate"
+    }
+  },
+  "MarketingEngagementToolsContent": {
+    "ConnectFacebookForm": {
+      "IntegrationSetupError": "توليد العملاء عبر الفيسبوك غير نشط حاليًا، يُمكن لمدير النظام تمكين دمج الفيسبوك",
+      "IntegrationWindowError": "النوافذ المنبثقة محظورة حاليًا في إعدادات المتصفح الخاص بك. الرجاء تمكين النوافذ المنبثقة للمتابعة",
+      "DefaultSubscriptionError": "حدث خطأ ما. الرجاء محاولة ربط النموذج مرة أخرى"
+    }
+  },
+  "MarketingEventContent": {
+    "AddEventAudienceRequest": {
+      "LookupPageCaption": "إضافة جهات اتصال إلى الحدث",
+      "ImportStartedMessage": "بدء استيراد الجمهور. قد تستغرق العملية بعض الوقت، وسنخبرك في لوحة الإشعارات بمجرد الانتهاء منها.",
+      "ErrorMessage": "حدث خطأ أثناء استيراد الجمهور",
+      "EventNotSavedMessage": "يجب حفظ الحدث أولًا",
+      "EmptyFilterMessage": "لا يمكن إضافة جمهور بدون فلتر، يُرجى تحديد بعض المجلدات أو السجلات المحددة"
+    },
+    "RemoveEventAudienceRequest": {
+      "RemoveStartedMessage": "بدء إزالة الجمهور",
+      "UnableToRemoveRecords": "حدث خطأ أثناء إزالة الجمهور",
+      "EmptyFilterMessage": "لا يمكن إزالة الجمهور بدون فلتر، يُرجى تحديد سجلات معينة",
+      "DeleteAllRecordsConfirmation": "هل أنت متأكد من رغبتك في حذف كل الجمهور من الحدث؟"
+    }
+  },
+  "MarketingEmailContent": {
+    "AddBulkEmailAudienceRequest": {
+      "LookupPageCaption": "إضافة جهات اتصال إلى البريد الإلكتروني السائب",
+      "ImportStartedMessage": "بدء استيراد الجمهور. قد تستغرق العملية بعض الوقت، وسنخبرك في لوحة الإشعارات بمجرد الانتهاء منها.",
+      "ErrorMessage": "حدث خطأ أثناء استيراد الجمهور",
+      "EmptyFilterMessage": "لا يمكن إضافة جمهور بدون فلتر، يُرجى تحديد بعض المجلدات أو السجلات المحددة"
+    },
+    "RemoveBulkEmailAudienceRequest": {
+      "DeleteAllRecordsConfirmation": "هل أنت متأكد من رغبتك في حذف كل الجمهور من البريد الإلكتروني؟",
+      "RemoveStartedMessage": "بدء إزالة الجمهور",
+      "UnableToRemoveRecords": "حدث خطأ أثناء إزالة الجمهور",
+      "EmptyFilterMessage": "لا يمكن إزالة الجمهور بدون فلتر، يُرجى تحديد سجلات معينة"
+    },
+    "OpenEmailPageRequest": {
+      "RedirectQuestionMessage": "The selected bulk email was created in Email section of the Classic UI. Do you want to be redirected to it?",
+      "RedirectCaption": "Redirect"
+    },
+    "ScheduleSendingTab": {
+      "ScheduleInfoMessage": "This email is scheduled to be sent at {0}, adjusted to your"
+    },
+    "SendTestEmailPage": {
+      "DefaultLabel": "افتراضي"
+    },
+    "ContactSubscribeToBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is subscribed."
+    },
+    "ContactUnsubscribeFromBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is unsubscribed."
+    },
+    "BulkEmailDelete": {
+      "WrongStatus": "Unable to delete the bulk email because its status is neither \"Draft\" nor \"Planned\"",
+      "UsedInCampaign": "Unable to delete selected record, bulk email is used in a campaign"
+    },
+    "SenderDomain": {
+      "ValidateDomainGenericErrorMessage": "Unable to validate the sender domain due to an unexpected error. Please try again or contact support if the issue persists."
+    }
+  },
+  "ResendWebhooks": {
+    "SuccessMessage": "Undelivered webhook processing has started successfully. This may take some time depending on the number of undelivered webhooks in the system.",
+    "ErrorMessage": "Failed to start undelivered webhook receiving process."
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "لا توجد صفحة لسجلات جديدة أو موجودة. يجب على مسؤول النظام التحقق من زر الإعدادات في واجهة المستخدم الحر",
+    "GoToEntityDesignerMessage": "لإعداد الصفحات، اذهب إلى الرابط: {0}"
+  },
+  "Copilot": {
+    "RewriteActionsPrompt": {
+      "AskCopilot": "You will assist with rewriting the following text, further instructions will be provided in the dialog",
+      "Friendly": "Rewrite the following text and make it more friendly",
+      "Formal": "Rewrite the following text and make it more formal",
+      "Shorten": "Rewrite the following text and shorten it",
+      "Extend": "Rewrite the following text and extend it",
+      "Rephrase": "Rewrite the following text and rephrase it"
+    },
+    "DebugInfo": {
+      "NoDebugInfo": "No debug information available"
+    },
+    "NewChatCaption": "New chat",
+    "DeleteRecordConfirmation": "هل أنت متأكد من أنك تريد حذف السجل المحدد؟",
+    "FileMessages": {
+      "IntentMaxSizeException": "{0} MB maximum file size limit exceeded. You can increase the maximum file size by changing the {1} system setting.",
+      "ChatMaxSizeException": "{0} MB maximum file size limit exceeded. You can increase the maximum file size by changing the {1} system setting.",
+      "IntentMissingTypeException": "File type is not specified. Please upload a file in one of the following standard text formats: {0}",
+      "ChatMissingTypeException": "File type is not specified. Please upload a file in one of the following standard text formats: {0}",
+      "IntentTypeNotSupportedException": "{0} file type is not supported. Please upload a file in one of the following standard text formats: {1}",
+      "ChatTypeNotSupportedException": "{0} file type is not supported. Please upload a file in one of the following standard text formats: {1}"
+    },
+    "MessageSent": "The message was sent.",
+    "ViewElementMessage": {
+      "SetupDetailsCaption": "Setup details"
+    },
+    "LiveAnnouncement": {
+      "ChatRenamed": "Chat renamed to {0}",
+      "MessageReceivedInCurrentChat": "{0}: {1}",
+      "MessageReceivedInAnotherChat": "New message from {0} in {1} chat",
+      "SessionCreated": "New {0} chat created",
+      "Typing": "{0} is working on it"
+    },
+    "LlmModelPage": {
+      "PleaseTypeRequiredField": "Please type connection string required field"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "يرجى تحديد قيمة من القائمة",
+      "SelectionWindowMessage": "يرجى تحديد قيمة من القائمة أو البحث باستخدام نافذة البحث"
+    },
+    "Required": {
+      "Message": "ادخل قيمة"
+    },
+    "MaxLength": {
+      "Message": "تجاوز الحد الأقصى لطول النص ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "لم يتم بلوغ الحد الأدنى لطول النص ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "تنسيق التاريخ والوقت غير صالح"
+    },
+    "DatePickerSyntax": {
+      "Message": "تنسيق التاريخ غير صالح"
+    },
+    "TimePickerSyntax": {
+      "Message": "تنسيق الوقت غير صالح"
+    },
+    "RegExp": {
+      "Message": "تنسيق القيمة غير صالح"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "يجب أن يبدأ الرمز ببادئة {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "أدخل على الأقل رمز إضافي واحد."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "استخدم الرموز: a-z، أو A-Z أو 0-9 (_) أو (-). ويمكن فقط للحروف أن تكون أولًا."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "تم حذف العمود",
+    "ValidationErrorMessageSingleErrorField": "الحقل: {0}. الخطأ: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "الحقول: {0}. الخطأ: {1}",
+    "RefreshModelDataConflict": "لدى Creatio بيانات جديدة للصفحة الحالية. لعرضها، يجب حفظ أو إلغاء التغييرات الخاصة بك وتحديث الصفحة.",
+    "WarningModelsWithCircularDependencies": "بعض النماذج لها تبعيات دائرية ولم يتم تحميلها",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "DigitalAdsContent": {
+    "AdPlatformLoginRequestTitle": "Connect ad platform",
+    "NotEnoughPermissionsMessage": "Sorry, unable to connect your ad account. Please grant maximum permissions to Creatio and try again.",
+    "PlatformUndefinedMessage": "Platform undefined, make sure to configure platform foe the button",
+    "ApplicationUndefinedMessage": "Application undefined, make sure to configure platform foe the button",
+    "ImportFromAdPlatformStartedMessage": "Data import from ad accounts has been started",
+    "NoConnectedAdAccountsFoundMessage": "There are no connected ad accounts for import",
+    "NoActiveAdAccountsFoundMessage": "Sorry, but we couldn’t find any ad accounts available to you. Make sure that you have access to the required accounts on the platform. Only active accounts can be connected.",
+    "PlatformInputCaption": "المنصة",
+    "AppInputCaption": "تطبيق"
+  },
+  "GoogleAnalytics": {
+    "PlatformCaption": "المنصة",
+    "ApplicationCaption": "تطبيق",
+    "LoginRequestTitle": "Connect google analytics",
+    "NotEnoughPermissionsMessage": "Sorry, unable to connect your google analytics account. Please grant maximum permissions to Creatio and try again.",
+    "PlatformUndefinedMessage": "Platform undefined, make sure to configure platform foe the button",
+    "ApplicationUndefinedMessage": "Application undefined, make sure to configure platform foe the button",
+    "RefreshStreamSuccessMessage": "Google Analytics streams refreshed successfully",
+    "RefreshStreamErrorMessage": "Failed to refresh Google Analytics streams. Please try again later.",
+    "RefreshStreamConfirmationTitle": "Refresh data stream list?",
+    "RefreshStreamConfirmationMessage": "Refreshing may take a moment — the system will be unavailable while updating the list",
+    "RefreshStreamConfirmationCancel": "إلغاء",
+    "RefreshStreamConfirmationOk": "تحديث"
+  },
+  "PageTools": {
+    "DesignButtonHint": "تعديل الصفحة",
+    "ExpandButtonTitle": "توسيع",
+    "CollapseButtonTitle": "تصغير"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "إعدادات القائمة الخاصة بالمجلد",
+      "CreateDataGridSettingsForFolder": {
+        "SuccessStatus": "تم حفظ إعدادات القائمة. سوف يطبقها Creatio فقط عندما يكون مجلد \"{0}\" نشط"
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "حفظ إعدادات القائمة ل \"{0}\""
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "مسح إعدادات القائمة ل \"{0}\"",
+        "Confirmation": "مسح إعدادات القائمة ل \"{0}\"?"
+      }
+    }
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {}
+  },
+  "SkeletonLoader": {
+    "Loading": "تحميل..."
+  },
+  "CopyClipboard": {
+    "Copied": "منسوخ"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "لا يوجد شيء لإظهاره حتى الآن ",
+      "Subhead": "يرجى إضافة البيانات التالية أولًا"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "تحميل"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "خطأ",
+      "Default": "لمحة عن الأدوات"
+    }
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "سلسلة حروف مشفرة"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "إعدادات الملخصات",
+        "GeneralGroup": {
+          "Caption": "عام",
+          "SelectDataSource": "مصدر البيانات"
+        }
+      },
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "عام",
+        "SourceSchemaLabel": "موقع تخزين المجلد",
+        "RootSchemaLabel": "ماذا سيتم بتصفية المجلدات؟",
+        "HeaderLabel": "إعدادات المجلد",
+        "AppearanceGroup": "الظهور",
+        "BorderRadiusLabel": "نصف قطر الحدود",
+        "Sizes": {
+          "None": "لا يوجد",
+          "Small": "صغير",
+          "Medium": "متوسط",
+          "Large": "كبير"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "إعدادات قائمة إدارة المجلد",
+        "FolderTreeLabel": "شجرة تحديد المجلدات",
+        "GeneralCaption": "عام"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "وضع عرض شريط الأدوات",
+        "Inline": "متضمنة",
+        "Classic": "كلاسيكي",
+        "AlwaysShowToolbar": "Always show formatting options"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "إعدادات خيارات الاتصال",
+        "GeneralGroup": "عام",
+        "MasterRecordCaption": "سجل لربط خيارات الاتصال",
+        "DataSourceEntityColumn": "مصدر البيانات",
+        "Editability": "قابلية التعديل",
+        "EditabilityControls": {
+          "Readonly": "قراءة فقط"
+        },
+        "LabelPositionCaption": "موضع العنوان",
+        "LabelPosition": {
+          "Auto": "تلقائي",
+          "Left": "الأيسر",
+          "Above": "أعلى",
+          "Hidden": "مخفي"
+        },
+        "ShowNoDataPlaceholder": "عرض العنصر النائب في حال عدم وجود بيانات",
+        "AppearanceGroup": "الظهور",
+        "ColumnsCountLabel": "عدد الأعمدة",
+        "ContactEntitySchemaName": "خيارات اتصال جهة الاتصال",
+        "AccountEntitySchemaName": "خيارات التواصل عبر الحساب",
+        "EmptyDataSourceHint": "لم يتم إضافة مصدر البيانات إلى الصفحة. الرجاء إضافة مصدر البيانات الموجود لإعداد المكون"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "إعدادات الجدول الزمني",
+        "ObjectsCaption": "الكائنات",
+        "AddObject": "إضافة كائن جديد",
+        "ContextMenu": {
+          "Edit": "التعديل",
+          "Delete": "حذف"
+        },
+        "GeneralGroup": "عام",
+        "EmptyDataSourceHint": "لم يتم إضافة مصدر البيانات إلى الصفحة. الرجاء إضافة مصدر البيانات الموجود لإعداد المكون",
+        "BindToDataSourceCaption": "مصدر البيانات",
+        "FiltrationCaption": "خيارات الفلترة",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "حسب نوع السجل",
+          "TimelineFilter_Owner": "حسب المالك",
+          "TimelineFilter_Date": "حسب التاريخ",
+          "TimelineFilter_SystemMessages": "حسب رسائل النظام"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "عام",
+        "CaptionLabel": "العنوان",
+        "AppearanceGroup": "الظهور",
+        "LinkedColumn": "العمود المرتبط",
+        "SortedByColumn": "فرز حسب",
+        "IconPosition": {
+          "OnlyIcon": "الأيقونة فقط"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "المستخدمون الخارجيون",
+          "AllowExternalPostCaption": "السماح بالنشر للمستخدمين الخارجيين"
+        },
+        "FiltrationGroup": "خيارات الفلترة",
+        "OwnerColumn": "العمود الخاص بفلترة المالك"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "إعدادات الملف الشخصي للحساب المدمج",
+        "GeneralGroup": "عام",
+        "AttributeForReferenceColumn": "مصدر البيانات",
+        "Editability": "قابلية التعديل",
+        "EmptyAccountDataSourceHint": "لم يتم إضافة مصدر البيانات إلى الصفحة. الرجاء إضافة مصدر البيانات الموجود لإعداد المكون",
+        "EditabilityControls": {
+          "Readonly": "قراءة فقط"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "إعدادات ملف الاتصال المدمج",
+        "GeneralGroup": "عام",
+        "AttributeForReferenceColumn": "مصدر البيانات",
+        "Editability": "قابلية التعديل",
+        "EmptyContactDataSourceHint": "لم يتم إضافة مصدر البيانات إلى الصفحة. الرجاء إضافة مصدر البيانات الموجود لإعداد المكون",
+        "EditabilityControls": {
+          "Readonly": "قراءة فقط"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "إعدادات ملف تعريف المستخدم",
+        "GeneralGroup": "عام",
+        "AttributeForReferenceColumn": "مصدر البيانات",
+        "Editability": "قابلية التعديل",
+        "EmptyUserProfileDataSourceHint": "لم يتم إضافة مصدر البيانات إلى الصفحة. الرجاء إضافة مصدر البيانات الموجود لإعداد المكون",
+        "EditabilityControls": {
+          "Readonly": "قراءة فقط"
+        }
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "إعدادات التحديث",
+        "GeneralCaption": "عام",
+        "FeedTypeCaption": "How to filter records",
+        "FeedChannel": "قناة",
+        "FeedTypeGeneral": "عام",
+        "FeedTypeChannel": "قناة",
+        "FeedTypeRecord": "مرتبط بالسجل",
+        "FeedDataSourceCaption": "مصدر البيانات",
+        "FeedTypeUser": "مرتبط بالمستخدم",
+        "FeedTypeRecordTooltipCaption": "سيتم عرض رسائل التحديث استنادًا إلى اتصال السجل المحدد.",
+        "FeedTypeGeneralTooltipCaption": "جميع الإشعارات والإشارات ذات الصلة بالمستخدم الحالي. في هذا الوضع سيعرض التحديث المشاركات والتعليقات حيث تم وضع علامة على المستخدم الحالي أو المواضيع التي يتبعها. على سبيل المثال، يمكن إضافة التحديث في هذا الوضع إلى الصفحة الرئيسية لعدم فقدان المعلومات الهامة.",
+        "ExternalUsersGroupCaption": "المستخدمون الخارجيون",
+        "AllowExternalPostCaption": "السماح بالنشر للمستخدمين الخارجيين",
+        "ShowBlankSlateCaption": "إظهار القائمة الفارغة"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "التعديل",
+          "Delete": "حذف"
+        },
+        "ChannelsCaption": "قنوات",
+        "AddNewItem": "إضافة قناة",
+        "PageCaption": "محرر الرسالة",
+        "DefaultChannelCaption": "Default channel"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "كاتب البريد الإلكتروني",
+        "GeneralCaption": "عام",
+        "DefaultSenderType": "المرسل الافتراضي",
+        "DefaultMailbox": "استخدام صندوق البريد الافتراضي",
+        "CaseMailbox": "استخدام صندوق البريد المصدر"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "إعدادات الفلتر السريعة",
+        "GeneralCaption": "عام",
+        "AppearanceCaption": "الظهور",
+        "ChooseFilterTypeLabel": "اختر نوع الفلتر",
+        "CaptionLabel": "العنوان",
+        "HintLabel": "تلميح",
+        "CustomType": "Custom",
+        "DateRangeType": "Date/Time",
+        "LookupType": "عملية البحث"
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "إعدادات الدردشة",
+        "GeneralCaption": "عام",
+        "TooltipCaption": "يمكنك إعداد هذا العنصر في رمز مصدر الصفحة",
+        "OpenSourceCodeButtonCaption": "رمز مفتوح المصدر"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Conversation settings",
+        "GeneralCaption": "عام"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Message editor settings",
+        "GeneralCaption": "عام"
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "إعدادات الخطوات التالية"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Next Best Offers settings",
+        "GeneralCaption": "عام",
+        "DataSourceCaption": "الكائن",
+        "CaptionColumnField": "تعليق",
+        "DescriptionColumnField": "الوصف",
+        "InfoLabelColumnField": "Info lookup",
+        "ImageColumnField": "صورة",
+        "NumberTagColumnField": "التسمية",
+        "SortingFieldTooltip": "The items will be sorted by value from this field in descending order.",
+        "AdditionalCaption": "إضافي",
+        "SpecificPageLookupField": "Which page to open?",
+        "UseSpecificPageField": "Open specific page by clicking on the caption",
+        "SpecificPageRecordIdField": "معرف السجلات",
+        "ViewModeCaption": "وضع العرض",
+        "CarouselViewMode": "Carousel",
+        "GalleryViewMode": "المعرض"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Multiselect lookup settings",
+        "GeneralGroup": {
+          "General": "عام",
+          "SelectLookup": "حدد البحث",
+          "MultiselectValueStorage": "Multiselect value storage",
+          "SelectColumn": "Column to display",
+          "Required": "مطلوب",
+          "RequirementTypeItems": {
+            "No": "لا يوجد",
+            "Yes": "نعم"
+          }
+        },
+        "AppearanceCaption": "الظهور",
+        "LabelPositionVariants": {
+          "Auto": "تلقائي",
+          "Left": "الأيسر",
+          "Above": "أعلى",
+          "Hidden": "مخفي"
+        },
+        "TitleOnPage": "العنوان في الصفحة",
+        "Placeholder": "العنصر النائب",
+        "Tooltip": "لمحة عن الأدوات",
+        "LabelPosition": "موضع العنوان",
+        "EnableAddRecordCaption": "تمكين إضافة قيم جديدة",
+        "WrapCaption": "Wrapping items to the next line",
+        "Editability": "قابلية التعديل",
+        "EditabilityControls": {
+          "Readonly": "قراءة فقط"
+        },
+        "LookupStaticFilterLabel": "Apply static filter for lookup"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "إعدادات الموافقات",
+        "SchemaNameLabel": "ما السجلات التي تريد الموافقة عليها؟",
+        "GeneralGroup": "عام",
+        "AppearanceGroup": "الظهور",
+        "HiddenWhenNoData": "يتم إخفاؤه في حال عدم وجود بيانات"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "إعدادات قائمة الموافقات",
+        "GeneralGroup": "عام",
+        "SchemaNameLabel": "العنصر"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Merge data"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Which data to merge?"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mini page for preview",
+        "TitleColumn": "Primary display field",
+        "StartDateColumn": "Start date column",
+        "EndDateColumn": "End date column",
+        "NotesColumn": "Field with online meeting information",
+        "PageCaption": "Calendar settings",
+        "RequiredFieldError": "هذا الحقل مطلوب",
+        "SecondaryTileFields": "Secondary tile fields",
+        "AddSecondaryFieldCaption": "Add secondary field",
+        "DisabledAddSecondaryFieldCaption": "You can add maximum 4 secondary fields",
+        "AutoScrollToCurrentTime": "Scroll to current time automatically",
+        "SecondaryFieldContextMenu": {
+          "Delete": "حذف"
+        },
+        "ColorizationType": {
+          "Default": "افتراضي",
+          "ByField": "Automatic",
+          "ByOwner": "By User"
+        },
+        "ColorizationTypeCaption": "Tile colorization mode",
+        "ColorizationColumnCaption": "بحث"
+      }
+    }
+  },
+  "Components": {
+    "EncryptedInput": {
+      "Caption": "سلسلة حروف مشفرة",
+      "EyeButtonShowValueCaption": "Show value",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Something went wrong. Please, try again or contact your system administrator."
+      },
+      "EyeButtonHideValueCaption": "Hide value",
+      "EyeButtonDisabledCaption": "Can’t show/hide value",
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "This type of attribute is not supported for this operation. Please check the field configuration or try a different data type.",
+        "CurrentRecordIdNotFoundError": "Unable to find the current record ID. This may happen if the current record has not been saved yet. Please make sure the record is saved before performing this action.",
+        "ReferenceRecordIdNotFoundError": "The referenced record ID is missing. This can occur if the reference points to a newly created record that hasn't been saved to the database yet. Please save the referenced record first.",
+        "ReferenceColumnSchemaNameNotFoundError": "The name of the referenced column schema is not found. Please check the configuration of the reference field."
+      }
+    },
+    "FolderTree": {
+      "Caption": "المجلدات",
+      "Hint": "يتيح لك تكوين هيكل المجلد لتنظيم السجلات بواسطة عوامل تصفية محددة. للتأكد من أن المكون يعمل على النحو المنشود، قم بتوصيل هذا المكون في قائمة الصفحات أو إعدادات مصدر البيانات."
+    },
+    "FolderTreeActions": {
+      "Caption": "قائمة إدارة المجلد",
+      "Hint": "يتطلب مكون المجلدات ويتيح لك إلغاء إخفاء مجلدات الصفحة."
+    },
+    "MessageComposer": {
+      "Caption": "محرر الرسالة",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "البريد الإلكتروني"
+        },
+        "Feed": {
+          "Caption": "تغذية"
+        },
+        "SelectChannelsCaption": "حدد القنوات"
+      }
+    },
+    "QuickFilter": {
+      "Caption": "فلتر سريع",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "الأمس",
+          "Today": "اليوم",
+          "Tomorrow": "غدا",
+          "PreviousWeek": "الأسبوع الماضي",
+          "CurrentWeek": "الأسبوع الحالي",
+          "NextWeek": "الأسبوع القادم",
+          "PreviousMonth": "الشهر الماضي",
+          "CurrentMonth": "الشهر الحالي",
+          "NextMonth": "الشهر القادم",
+          "PreviousQuarter": "الربع السابق",
+          "CurrentQuarter": "الربع الحالي",
+          "NextQuarter": "الربع التالي"
+        }
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "Selected color",
+      "Readonly": "حقل غير قابل للتعديل"
+    },
+    "NextBestOffer": {
+      "Caption": "Next best offers",
+      "EmptyValue": "غير متوفر",
+      "Next": "التالي",
+      "Previous": "السابق"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Next Best Offers"
+    },
+    "MultiSelect": {
+      "Caption": "Multiselect lookup",
+      "Label": "Multi-select",
+      "CreateRecordButtonCaption": "Create record",
+      "ExpanderIcon": "Expand dropdown",
+      "OpenModalIcon": "Open modal window",
+      "TooltipInfoIcon": "Information tooltip",
+      "ReadonlyIcon": "حقل غير قابل للتعديل"
+    },
+    "Approval": {
+      "Caption": "الموافقات"
+    },
+    "ApprovalList": {
+      "Caption": "قائمة الموافقات",
+      "RefreshCaption": "تحديث",
+      "ProvideDataSource": "توفير مصدر البيانات قبل استخدام الموافقات"
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "ملخص",
+    "Title": "العنوان",
+    "Column": "الخلية",
+    "Function": "الوظيفة",
+    "CustomSummaryLabelTooltip": "يحتوي العنصر على منطق عرض البيانات المكونة مسبقًا. إذا كنت بحاجة إلى تنفيذ المنطق البديل، فأزل قيمة العنصر."
+  },
+  "Summaries": {
+    "Caption": "الملخصات",
+    "Actions": {
+      "CreateCount": "عرض عدد السجلات",
+      "Title": "Summaries actions"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "إعداد سريع",
+      "Count": "العدد",
+      "Minimum": "حد أدنى",
+      "Maximum": "حد أقصى",
+      "Sum": "مجموع",
+      "Average": "متوسط"
+    },
+    "Hints": {
+      "NoDataSource": "لم يُحدد مصدر بيانات",
+      "Collapse": "Collapse summaries",
+      "Expand": "Expand summaries"
+    },
+    "ProfileActions": {
+      "SaveForAll": "حفظ الإعدادات لجميع المستخدمين",
+      "ResetToDefault": "إعادة الضبط للإعدادات الافتراضية",
+      "SaveForAllSuccessfully": "Summary settings saved for all users successfully",
+      "ResetToDefaultSuccessfully": "Default summary settings restored successfully"
+    },
+    "AdvancedSetup": {
+      "Title": "إعداد متقدم",
+      "Actions": {
+        "AddCustomSummary": "إضافة ملخص جديد"
+      }
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "حذف",
+      "Edit": "التعديل"
+    },
+    "AriaLabel": "Summary item",
+    "Statuses": {
+      "Added": "Summary item added successfully",
+      "Deleted": "Summary item deleted successfully",
+      "Edited": "Summary item changed successfully",
+      "Error": "خطأ"
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "إضافة",
+    "AddFilterHint": "إضافة مجلد جديد",
+    "BlankslateMessage": "لا يوجد مجلدات",
+    "CloseFolderTree": "اخفاء المجلدات",
+    "SetUpFilter": "إعداد المرشح",
+    "DefaultFolderName": "مجلد جديد",
+    "CopyFolderSuffix": "نسخ",
+    "DeleteConfirmation": "هل أنت متأكد من رغبتك في حذف المجلد المحدد؟",
+    "MenuActions": {
+      "AddFolder": "إضافة مجلد",
+      "RenameFolder": "إعادة تسمية",
+      "CopyFolder": "نسخ",
+      "DeleteFolder": "حذف",
+      "AddToFavorite": "أضف الى المفضلة",
+      "RemoveFromFavorite": "إزالة من المفضلة",
+      "ChangeFolderRights": "إعداد حقوق الوصول",
+      "AddStaticFolder": "إضافة مجلد ثابت",
+      "ConvertToStaticFolder": "تحويل إلى مجلد ثابت",
+      "MoveFolder": "نقل"
+    },
+    "FavoritesNodeCaption": "المفضلات",
+    "ShowMenuActions": "عرض الإجراءات",
+    "CopyRightsQuestion": "نسخ أذونات الوصول إلى المجلد \"{0}\"؟",
+    "RootNodeCaption": "الكل",
+    "HasNotPermission": "ليس لديك إذن وصول لهذه العملية."
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "حفظ",
+    "CancelButton": "إلغاء",
+    "DialogTitle": "إعدادات الفلاتر"
+  },
+  "FolderTreeActions": {
+    "MenuButton": "المجلدات",
+    "FavoriteItemsMenuButtonAriaLabel": "قائمة المجلدات المفضلة",
+    "ClearButtonCaption": "ازل التحديد",
+    "FolderButtonAriaLabel": "Open/Close folder tree"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "سنبلغك عند اكتمال التحويل."
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "إلغاء",
+    "SelectFolderButtonCaption": "تحديد",
+    "SelectFolderCaption": "حدد مجلد"
+  },
+  "PhoneInput": {
+    "CallButtonHint": "مكالمة"
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "الشهر القادم",
+    "AriaPrevMonthLabel": "الشهر الماضي",
+    "AriaNextYearLabel": "العام التالي",
+    "AriaPrevYearLabel": "العام السابق",
+    "Readonly": "حقل غير قابل للتعديل",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "التقويم",
+    "TimePickerIconTitle": "الوقت"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Formatting options (Alt+F10)",
+    "UploadAttachments": "حدد المرفقات",
+    "SelectTemplate": "إدخال قالب",
+    "SelectionActions": {
+      "AskCopilot": "Ask Creatio.ai",
+      "Friendly": "Friendly",
+      "Formal": "رسمي",
+      "Shorten": "Shorten",
+      "Extend": "Extend",
+      "Rephrase": "Rephrase",
+      "RewriteCaption": "Rewrite text"
+    },
+    "TableOfContents": {
+      "Title": "Table of contents",
+      "Placeholder": "A table of contents based on the headings on this page will appear here once it has been published."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "حفظ",
+    "OpenLinkButtonCaption": "فتح في علامة تبويب جديدة",
+    "CloseLinkButtonCaption": "إغلاق",
+    "UnlinkLinkButtonCaption": "إلغاء الربط",
+    "LinkLabelCaption": "عنوان الرابط",
+    "TextLabelCaption": "النص المراد عرضه"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Insert video",
+    "PasteUrlTab": "Paste url",
+    "UploadFileTab": "رفع الملف",
+    "EmbedCodeTab": "Embed code",
+    "DialogDescription": "This video will be embedded at 640 pixels wide.<br>This embedded video will include a text link.",
+    "SaveButton": "Insert video",
+    "CancelButton": "إلغاء",
+    "UploadButton": "رفع الملف",
+    "InputPlaceholder": "Paste here",
+    "DragAndDropPlaceholder": "Drag-and-drop file here or",
+    "NotVideoFile": "The inserted file is not a video, please select a file with a video type.",
+    "ConfirmMessage": "تحتوي هذه الصفحة على تغييرات غير محفوظة، وستُفقد إذا أغلقتها. هل تريد حفظ التغييرات؟"
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "رقم الهاتف",
+    "DesignerEmailLabel": "عنوان البريد الالكتروني",
+    "DesignerWebLabel": "رابط الويب",
+    "Caption": "خيارات التواصل",
+    "DeleteOption": "حذف",
+    "Primary": "أساسي",
+    "Invalid": "غير صالح",
+    "MarkAsPrimary": "تعيين كأساسي",
+    "MarkAsValid": "وضع علامة صالح",
+    "MarkAsInvalid": "وضع علامة غير صالح",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} موجود بالفعل",
+      "ReadOnlyStateMessage": "لا يمكن إضافة خيار الاتصال لأن المكون في وضع القراءة فقط",
+      "IncorrectSetupComponentMessage": "غير قادر على إضافة خيار الاتصال لأن مكون الصفحة لم يتم إعداده بعد. يمكن لمسؤول النظام إنهاء الإعداد في مصمم واجهة المستخدم الحر",
+      "EmptyMasterRecordColumnNameInRequestMessage": "لا يمكن إضافة خيار الاتصال إلى سجل فارغ. الرجاء إضافة قيمة السجل أولًا"
+    },
+    "NoDataPlaceholderText": "لا توجد بيانات",
+    "Announcement": {
+      "Option": {
+        "Added": "{0} added",
+        "Deleted": "{0} {1} deleted",
+        "SetAsPrimary": "{0} {1}  set as primary",
+        "MarkedAsValid": "{0} {1} marked as valid",
+        "MarkedAsInvalid": "{0} {1} marked as invalid"
+      }
+    },
+    "ToolsAriaLabel": "الإجراءات"
+  },
+  "AccountCompactProfile": {
+    "Caption": "حساب الملف الشخصي المدمج",
+    "DialogTitle": "تعديل الحساب",
+    "AlternativeNameFieldLabel": "والمعروف أيضا بـ",
+    "EmptyDisplayValue": "لا توجد قيمة معروضة",
+    "NamePlaceholder": "إضافة اسم الحساب",
+    "EmptyRecord": {
+      "NamePlaceholder": "اسم الحساب",
+      "AlternativeNamePlaceholder": "والمعروف أيضا بـ",
+      "CountryPlaceholder": "الدولة"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "جهة اتصال الملف المدمج",
+    "DialogTitle": "تعديل جهة الاتصال",
+    "EmptyDisplayValue": "لا توجد قيمة معروضة",
+    "NamePlaceholder": "إضافة اسم جهة الاتصال",
+    "BirthDatePlaceholder": "وتاريخ الميلاد",
+    "EmptyRecord": {
+      "NamePlaceholder": "اسم جهة الاتصال",
+      "BirthDatePlaceholder": "تاريخ الميلاد",
+      "CountryPlaceholder": "الدولة"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "ملف المستخدم الشخصي المدمج",
+    "DialogTitle": "تحرير الاسم",
+    "EmptyDisplayValue": "لا توجد قيمة معروضة",
+    "NamePlaceholder": "إضافة اسم المستخدم"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "إغلاق"
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "تم الاتصال به",
+        "Sec": "ثانية",
+        "DetailsLinkCaption": "Call details"
+      },
+      "Email": {
+        "MailedTo": "أُرسل البريد إلى",
+        "From": "من:",
+        "To": "إلى:",
+        "CC": "CC:",
+        "Details": "تفاصيل",
+        "Hide": "إخفاء"
+      },
+      "File": {
+        "AddedFile": "تم إضافة ملف"
+      },
+      "Chat": {
+        "ChatWith": "محادثة مع",
+        "Show": "إظهار الدردشة",
+        "Hide": "إخفاء المحادثة",
+        "DetailsLinkCaption": "Chat details"
+      }
+    },
+    "NoDataMessage": "السابق غير موجود",
+    "FillActionMessage": "لا توجد سجلات مرتبطة لعرضها في الجدول الزمني",
+    "NoDataByFilterMessage": "لا توجد سجلات تطابق معايير الفلتر",
+    "FillActionByFilterMessage": "مسح الفلتر أو تغيير شروطه",
+    "EntityFilterCaption": "الكل",
+    "OwnerFilterCaption": "المالك",
+    "DateFilterCaption": "حدد فترة زمنية",
+    "HideSystemMessagesCaption": "إخفاء رسائل النظام",
+    "EntityFilterHint": "حدد نوع السجل",
+    "OwnerFilterHint": "حدد مالك السجل",
+    "DateFilterHint": "حدد فترة السجل الزمنية",
+    "HideSystemMessagesHint": "إخفاء رسائل البريد الإلكتروني التلقائية",
+    "DateSort": "التاريخ",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "البريد الإلكتروني"
+      },
+      "Feed": {
+        "Caption": "تغذية"
+      },
+      "Task": {
+        "Caption": "المهمة"
+      },
+      "SysFile": {
+        "Caption": "الملف"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Sort by date button, currently sorted {0}",
+        "Descending": "منحدر",
+        "Ascending": "تصاعدي"
+      }
+    }
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "اسم الحساب",
+    "AlternativeNamePlaceholder": "والمعروف أيضا بـ",
+    "CountryPlaceholder": "الدولة"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "اسم جهة الاتصال",
+    "DesignerBirthDatePlaceholder": "تاريخ الميلاد",
+    "CountryPlaceholder": "الدولة"
+  },
+  "Dashboards": {
+    "SelectDashboard": "Select dashboard",
+    "NoData": "No associated dashboards to display",
+    "NoData2": "Add a dashboard to make it look prettier",
+    "CreateNewDashboardButton": "Add new dashboard",
+    "AccessDenied": "You do not have permission to edit this item",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Are you sure that you want to delete the selected dashboard?",
+        "FailMessage": "Unfortunately, you cannot delete the selected dashboard"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "الإجراءات",
+      "Edit": "التعديل",
+      "Copy": "نسخ",
+      "Delete": "حذف",
+      "Rights": "إعداد حقوق الوصول"
+    }
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Dashboards settings",
+    "GeneralGroup": {
+      "Caption": "عام",
+      "DataSource": "مصدر البيانات",
+      "DataSourceTooltip": "The data source will be set as primary data source for every dashboard created in this component",
+      "DataSourceDependenciesSettingTooltip": "Filter by page data lets you display connected data in a dashboard",
+      "DataSourceFilterElementsGroupTooltip": "يتيح لك الإعداد استخدام الفلاتر التي تم تكوينها مسبقًا من المجلدات أو عناصر فلترة البيانات الأخرى كفلاتر الصفحات"
+    },
+    "DashboardsGroup": {
+      "Caption": "لوحات التحكم",
+      "AddDashboard": "Add new dashboard",
+      "InfoTooltip": "The list of dashboards displays only those items that are schemas in configuration",
+      "ContextMenu": {
+        "Copy": "نسخ",
+        "Delete": "حذف",
+        "Edit": "التعديل"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Are you sure you want to delete dashboard \"{{caption}}\"?",
+            "WithUserLevelSchema": "The dashboard you want to delete has a dependent dashboard: \"{{caption}}\" end-user schema. If you continue, both dashboards will be deleted. Continue?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Unable to delete \"{{caption}}\" dashboard because it was either created by third-party publisher or installed from the file",
+            "DependsOnSchema": "Unable to delete \"{{caption}}\" dashboard because it has dependent configuration schema(s)"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "You cannot rename the element because it has bound dashboards"
+    }
+  },
+  "Feed": {
+    "Caption": "تغذية",
+    "SortByCreatedOn": "Sort by message date",
+    "SortByLastAction": "Sort by date of last activity",
+    "ShowMoreThanOneNewSocialMessages": "إظهار {0} رسائل جديدة",
+    "ShowNewSocialMessage": "إظهار 1 رسالة جديدة",
+    "Publisher": {
+      "DefaultInputPlaceholder": "كتابة رسالة…",
+      "DisabledInputPlaceholder": "لا يمكنك إنشاء مشاركات جديدة في صفحة سجل جديدة.",
+      "CommentInputPlaceholder": "كتابة تعليق…",
+      "ShareWithPortal": "مشاركة مع مستخدم البوابة",
+      "PostingErrorMsg": "حدث خطأ أثناء حفظ منشور التحديثات",
+      "UserFeedInputPlaceholder": "التغذية في وضع المستخدم، ولا يمكنك إنشاء مشاركات جديدة في هذا الوضع.",
+      "SendButtonHint": "أرسل الرسالة (اضغط زر Ctrl + Enter)",
+      "CancelButtonHint": "إلغاء",
+      "PostingEmptyMsg": "يرجى كتابة رسالة للمتابعة.",
+      "ExternalMessagesDisabled": "يرجى ملاحظة أن المستخدم الخارجي لن يستطيع قراءة الرسالة، لأن هذا الخيار معطل في وقت تصميم المكون.",
+      "ConfirmMessageAccessLevelChange": "يرجى تأكيد أنك تريد تغيير مستوى رؤية المشاركة. يرجى ملاحظة أن: المشاركة، والتعليقات والمرفقات ذات الصلة ستصبح مرئية للمستخدمين الخارجيين.",
+      "ConfirmCommentAccessLevelChange": "يرجى تأكيد أنك تريد تغيير مستوى ظهور التعليق. يرجى ملاحظة أن التعليق والمرفقات ذات الصلة ستصبح مرئية للمستخدمين الخارجيين."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "إضافة تعليق",
+      "CommentsButtonCaption": "تعليقات",
+      "CommentsButtonHint": "إظهار التعليقات",
+      "ExpandedCommentsButtonHint": "Hide comments",
+      "PostedInLabel": "posted in"
+    },
+    "Reactions": {
+      "Like": "اعجاب",
+      "ExtraReactionsTemplate": "و {0} أكثر...",
+      "PostLiked": "The feed post was liked.",
+      "LikeRemoved": "Like was removed from the feed post."
+    },
+    "Item": {
+      "Edit": "التعديل",
+      "Delete": "حذف",
+      "DeletionConfirmation": "هل أنت متأكد من رغبتك في حذف السجل؟ لا يمكن التراجع عن هذا الإجراء.",
+      "DeletionErrorMsg": "لم يُحذف السجل. الرجاء المحاولة مرة أخرى لاحقًا."
+    },
+    "NoDataContainerLabel": "المكان هادئ للغاية!",
+    "ExternalUserTagCaption": "خارجي",
+    "ExternalUserTagTooltip": "النشر للمستخدمين الخارجيين",
+    "DraftItemTagCaption": "مسودة",
+    "SortButtonCaption": "Sort feed",
+    "ActionsButtonCaption": "الإجراءات",
+    "FollowButtonCaption": "Follow feed",
+    "UnfollowButtonCaption": "Unfollow feed",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Follow feed",
+        "Unfollow": "Unfollow feed"
+      },
+      "NotificationTemplate": {
+        "Follow": "You are following updates of the feed: {0}",
+        "Unfollow": "You have unfollowed updates of the feed: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}"
+  },
+  "MessageComposer": {
+    "CancelButtonHint": "تجاهل",
+    "CancelButtonText": "تجاهل",
+    "SaveDraftButtonText": "حفظ المسودة",
+    "SendButtonHint": "أرسل الرسالة (اضغط زر Ctrl + Enter)",
+    "MessageSent": "تم الارسال",
+    "SendButtonText": "إرسال",
+    "RemoveAttachmentHint": "إزالة المرفق",
+    "Caption": "محرر الرسالة",
+    "Email": {
+      "Caption": "كاتب البريد الإلكتروني",
+      "From": "من",
+      "To": "إلى",
+      "CC": "إلى كل",
+      "BCC": "إعادة توجيه إلى كل",
+      "Subject": "الموضوع",
+      "PublishError": "فشل إرسال الرسالة. حدث الخطأ التالي: {0}",
+      "SaveDraftError": "تعذّر حفظ المسودة. الرجاء المحاولة مرة أخرى لاحقًا",
+      "TemplateInsertError": "تعذّر إضافة المسودة. الرجاء المحاولة مرة أخرى لاحقًا.",
+      "AttachmentsSizeLimitReached": "تخطى حجم المرفقات الحد المسموح به {0} ميجابايت. يرجى إزالة بعض المرفقات.",
+      "FromValidationErrorMessage": "لا يمكن أن يكون الحقل \"من\" فارغًا. الرجاء تحديد صندوق بريد.",
+      "ToValidationErrorMessage": "لا يمكن أن يكون الحقل \"إلى\" فارغًا. الرجاء إدخال مستلم واحد على الأقل.",
+      "SubjectValidationErrorMessage": "لا يمكن أن يكون حقل \"الموضوع\" فارغًا. الرجاء إدخال موضوع البريد الإلكتروني.",
+      "Draft": "مسودة",
+      "BodyPlaceholder": "كتابة رسالة",
+      "Reply": "الرد",
+      "ReplyAll": "الرد على الكل",
+      "Forward": "إلى الأمام",
+      "SentOn": "مرسل لـ",
+      "SubjectToggleCaption": "الموضوع",
+      "CcToggleCaption": "إلى كل",
+      "BccToggleCaption": "إعادة توجيه إلى كل",
+      "NotContainsEmail": "لا يحتوي على بريد إلكتروني فيه",
+      "ChangeReplyAction": "تغيير إجراء الرد",
+      "ShowTrimmedEmailTitle": "عرض البريد الإلكتروني المقصوص",
+      "EmailTemplatesLookupCaption": "حدد قالبًا",
+      "EmailTemplatesDisplayColumnCaption": "اسم القالب",
+      "ContinueEditing": "متابعة التعديل",
+      "SaveDraft": "حفظ المسودة",
+      "DraftSaved": "تم حفظ المسودة",
+      "EmailSent": "تم ارسال البريد الالكتروني",
+      "RemoveRecipientLabel": "Remove recipient"
+    },
+    "Feed": {
+      "Caption": "الرد على الكاتب"
+    },
+    "Selector": {
+      "Caption": "محرر الرسالة"
+    },
+    "ComposerAreaLabel": "Message composer input area",
+    "AttachmentPreview": "Attachment preview",
+    "Attachment": {
+      "Added": "The attachment was added.",
+      "Removed": "The attachment was removed."
+    }
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "إضافة مكونات",
+    "Tooltip": "يرجى إضافة مكونات"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "قيمة افتراضية",
+    "FilterColumnLabel": "عمود الترشيح",
+    "ViewAttributeLabel": "مكون الفلتر"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "تعديل الفلتر",
+    "SetupFilterCaption": "إعداد الفلتر",
+    "FiltersDialogCaption": "فلتر محدد يدويًا",
+    "DefaultCheckBoxState": {
+      "Label": "الوضع الافتراضي لمربع الاختيار",
+      "CheckedCaption": "تم التحقق",
+      "UncheckedCaption": "غير محددة"
+    },
+    "FilteringApproachState": {
+      "Label": "أسلوب الفلترة",
+      "OnCheckedCaption": "تطبيق شرط الفلتر عند تحديد مربع الاختيار",
+      "OnUncheckedCaption": "تطبيق شرط الفلتر عند إلغاء تحديد خانة الاختيار"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "الفترة الزمنية الافتراضية",
+    "ChooseFilteringMethodCaption": "اختر طريقة للفلترة",
+    "ChooseFilteringMethodTooltip": "قد يعرض الفلتر بيانات ذات صلة بخصوص الفترة الزمنية المحددة.\nاستخدم شرط \"إعداد الفلتر حسب التاريخ\" لعرض السجلات التي تم إنشائها أو تعديلها في اليوم المحدد. على سبيل المثال، يمكنك إعداد هذا الفلتر لعرض النتائج حسب تاريخ الإنشاء والفرص حسب تاريخ الإغلاق أو الحالات تاريخ تقديم الحل.\n\nاستخدم شرط \"إعداد الفلتر حسب نطاق زمني\" لعرض السجلات ذات الصلة بالنطاق الزمني المحدد. على سبيل المثال، يمكنك إعداد هذا الفلتر ليشمل العقود ذات تاريخ البدء والانتهاء داخل نطاق الفترة الزمنية المحددة.",
+    "SetUpByOneColumnTitle": "إعداد الفلتر حسب التاريخ",
+    "SetUpByTwoColumnsTitle": "إعداد الفلتر حسب نطاق زمني",
+    "FilterColumnStartCaption": "فلترة العمود من",
+    "FilterColumnEndCaption": "فلترة العمود إلى"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "جهة اتصال المستخدم الحالية",
+    "CurrentUserAccountName": "حساب المستخدم الحالي",
+    "EditFilterCaption": "تعديل الفلتر",
+    "SetupFilterCaption": "إعداد الفلتر",
+    "FiltersDialogCaption": "فلتر محدد يدويًا",
+    "TagVirtualColumnCaption": "العلامة"
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Agree"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "تحميل الملف"
+    },
+    "System": {
+      "ChatStartedMessage": "Chat started: {chatStartedAt} by {chatStartedBy}"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "There are no recent chats yet",
+    "CreateChatButton": "Start new chat",
+    "DraftPreview": "<span class='draft-preview'>Draft: </span>",
+    "YourPreview": "أنت: ",
+    "RenameChat": {
+      "LabelTitle": "Rename chat",
+      "InputTitle": "العنوان",
+      "SaveButton": "حفظ",
+      "CancelButton": "إلغاء"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "الإجراءات"
+    },
+    "NoDataBySearchFilter": "لا توجد سجلات تطابق معايير الفلتر",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions ",
+    "ARIA": {
+      "Label": "الدردشة",
+      "ChatItem": "Chat: {0}. Last message: {1}",
+      "LoadMoreTrigger": "تحميل المزيد"
+    }
+  },
+  "QuickFilter": {
+    "MainTitle": "فلتر سريع",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "الأمس",
+        "Today": "اليوم",
+        "Tomorrow": "غدا",
+        "PreviousWeek": "الأسبوع الماضي",
+        "CurrentWeek": "الأسبوع الحالي",
+        "NextWeek": "الأسبوع القادم",
+        "PreviousMonth": "الشهر الماضي",
+        "CurrentMonth": "الشهر الحالي",
+        "NextMonth": "الشهر القادم",
+        "PreviousQuarter": "الربع السابق",
+        "CurrentQuarter": "الربع الحالي",
+        "NextQuarter": "الربع التالي"
+      },
+      "RangeSeparator": "حتى",
+      "SelectDatePlaceholder": "حدد التاريخ",
+      "EmptyDateRangeStartLabel": "<Start date>",
+      "EmptyDateRangeEndLabel": "<Due date>",
+      "Header": {
+        "ArrowRight": "الشهر القادم",
+        "ArrowLeft": "الشهر الماضي"
+      },
+      "RangeSelectedFrom": "Selected from",
+      "ClearIcon": "Clear selected range",
+      "ClearStartDatePlaceholder": "Clear selected start date",
+      "ClearEndDatePlaceholder": "Clear selected end date",
+      "EmptyDateRangeStartAriaLabel": "[No start date selected]",
+      "EmptyDateRangeEndAriaLabel": "[No end date selected]"
+    },
+    "Lookup": {
+      "NoData": "لا توجد بيانات"
+    }
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "فلتر التسلسل الهرمي للكيانات",
+    "GeneralCaption": "عام",
+    "SchemaNameCaption": "حدد كائن لبناء التسلسل الهرمي",
+    "HierarchySetup": "إعدادات التسلسل الهرمي",
+    "SchemaNameSelectTooltip": "حدد كائن لبناء التسلسل الهرمي على ذلك. يتم عرض جميع كائنات النظام في القائمة المنسدلة. بعد تكوين التسلسل الهرمي، قم بربطه بعنصر القائمة عن طريق تحديده كعامل تصفية مكون مسبقا.",
+    "ApplyStaticFilter": "تطبيق فلتر ثابت",
+    "EditStaticFilterAction": "تعديل الفلتر",
+    "FiltersDialogCaption": "فلتر محدد يدويًا",
+    "SetupStaticFilterAction": "إعداد الفلتر",
+    "DisplayModeCaption": "Hierarchy type",
+    "ManualDisplayMode": "يدويًا",
+    "ByParentDisplayMode": "By parent"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "إضافة عمود تسلسل هرمي جديد",
+    "ContextMenu": {
+      "AddToSubmenu": "إضافة تسلسل هرمي فرعي",
+      "Edit": "التعديل",
+      "Delete": "حذف"
+    }
+  },
+  "IFrame": {
+    "Caption": "IFrame",
+    "Hint": "IFrame component allows to embed and display content in either HTML or URL format",
+    "Placeholder": {
+      "NothingToShow": "لا يوجد شيء لإظهاره حتى الآن",
+      "NoContent": "No content available in this section"
+    },
+    "ContentUnavailable": {
+      "Title": "Content Unavailable",
+      "SubTitle": "Due to your network settings, browser security policies, or content restrictions",
+      "LinkTitle": "Read more in our Academy"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "الكل",
+    "NotFilledNode": "غير معبأة",
+    "SpecificationFilterCaption": "فتح فلترة إضافي",
+    "BackButtonCaption": "عودة",
+    "ClearAllFiltersButtonCaption": "مسح الكل"
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "تغيير حالة برنامج إعدادات الحالة المتغيرة (DCM). هناك تكوين أكثر صلة بهذا الكيان.",
+    "ConfirmChangeCaseDialogMessage": "هل تريد استبدال النسخة الحالية للحالة؟",
+    "SnackbarActualFilterCaseMessage": "هناك حالة أكثر صلة \"{{caption}}\". هل تريد الاستبدال؟",
+    "SnackbarIgnoreButtonCaption": "تجاهل",
+    "SnackbarReplaceButtonCaption": "استبدال",
+    "SnackbarEntityProcessChangedMessage": "تم تغيير الحالة بنجاح."
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "اختيار الألوان",
+        "AppearanceGroup": "الظهور",
+        "PickerModeRadioButtonCaption": "Palette",
+        "PickerMode": {
+          "Basic": "Basic palette",
+          "Extended": "Extended palette"
+        }
+      }
+    }
+  },
+  "NextSteps": {
+    "Caption": "الخطوات التالية",
+    "CompleteButtonCaption": "مكتمل",
+    "AddNewStepMenuCaption": "إضافة خطوة جديدة",
+    "CreateActivityButtonCaption": "إنشاء مهمة",
+    "CreateEmailButtonCaption": "إنشاء بريد إلكتروني",
+    "NoDataContainerLabel": "لا يوجد شيء لإظهاره هنا!",
+    "NoDataContainerDescription": "لا توجد خطوات مضافة لهذه المرحلة",
+    "OwnerHint": "المستخدم المعين",
+    "OwnerRoleHint": "المجموعة المعينة",
+    "RequiredStepHint": "الخطوة المطلوبة",
+    "ApprovalApprovedSnackbarCaption": "تم الموافقة على الطلب",
+    "ApprovalRejectedSnackbarCaption": "تم رفض الطلب"
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "لا يوجد شيء لإظهاره هنا!",
+    "NoDataDescription": "Currently there are no items in your queue",
+    "AcceptButtonLabel": "Accept"
+  },
+  "AgentInbox": {
+    "NewItems": "New Items ({{number}})",
+    "InProgress": "In Progress ({{number}})",
+    "RealTime": "Real-time",
+    "QueuedTasks": "Queued tasks",
+    "IncomingCallTpl": "Incoming: {{number}}",
+    "OutgoingCallTpl": "Outgoing: {{number}}"
+  },
+  "CallConversation": {
+    "Call": "Make call",
+    "Duration": "المدة",
+    "Search": "بحث",
+    "JobTitle": "Job Title",
+    "Account": "الحساب",
+    "CallIdentityOptions": "Call identity options",
+    "ConsultCallIdentityOptions": "Consult call identity options",
+    "ClearIdentity": "Clear selected record",
+    "Buttons": {
+      "Accept": "Accept call",
+      "CompleteTransfer": "انقر للتحويل",
+      "Hold": "وضع قيد الانتظار",
+      "Unhold": "تشغيل",
+      "StartTransfer": "Transfer call",
+      "Mute": "Mute call",
+      "CancelTransfer": "إلغاء التحويل",
+      "Drop": "Complete call",
+      "OpenDialPanel": "Open dial panel"
+    }
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "At least one value must be selected in: {0}"
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "الموافقات",
+    "ComponentHeaderInactiveLabel": "لا تحتاج إلى موافقة",
+    "RejectDialogHeaderLabel": "هل أنت متأكد من أنك تريد رفض الموافقة؟?",
+    "RejectInputLabel": "التعليق على الموافقة",
+    "RejectButtonLabel": "رفض",
+    "CancelButtonLabel": "إلغاء",
+    "ApproveDialogHeaderLabel": "هل تريد منح الموافقة؟?",
+    "ApproveButtonLabel": "موافقة",
+    "PositiveMetricLabel": "موجب",
+    "NegativeMetricLabel": "سلبي",
+    "PendingMetricLabel": "معلق",
+    "ComponentHeaderActiveLabel": "في انتظار موافقتك",
+    "ApprovalPurposeLabel": "الموافقة على الهدف",
+    "ApprovedPlaceholderLabel": "تم الموافقة عليه",
+    "DesignTime": {
+      "ApprovalObjective": "الموافقة مطلوبة"
+    },
+    "RejectedPlaceholderLabel": "REJECTED",
+    "DelegateButtonLabel": "تفويض"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "رفض",
+    "ApproveButtonLabel": "موافقة"
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "دمج التكرارات ({0})",
+      "Actions": {
+        "Merge": "دمج"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Unable to merge selected records",
+        "NoRights": "Insufficient permissions to merge data",
+        "MinSelectedRecordsViolation": "Select at least two records to merge",
+        "SelectionAllModeUsingViolation": "Merging is not available when using \"Select all\". Select the records you want to merge manually."
+      },
+      "SuccessfulCompletionStatus": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete."
+    }
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "ترجم"
+    }
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} records have been loaded. Load more records?",
+    "ConfirmResendMeetingInvitationsQuestion": "When the meeting is saved all participants will receive a meeting update. Do you  want to proceed?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Saving some of this meetings requires you to send a change notification to all participants after saving. Do you want to continue? Meeting list:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "الاجتماع يحدث في الماضي. هل أنت متأكد من أنك تريد إرسال دعوة للمشاركين؟",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. All participants will receive a meeting update. Do you  want to proceed?",
+    "CanNotChangeMeetingMessage": "لا يستطيع تغيير الوصف والتاريخ وقائمة المشاركين في الاجتماع إلا منظم الاجتماع.",
+    "CanNotChangeMultipleMeetingsMessage": "Some of the changed meetings can only be changed by the meeting organizer. Meeting list: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "You can delete meetings only if you select records manually.",
+    "ErrorSendingInvitationMessage": "لم يتم إرسال الدعوات. قد تكون مشكلة مؤقتة، الرجاء المحاولة مرة أخرى لاحقاً.",
+    "SuccessSendingInvitationMessage": "تم إرسال الدعوات بنجاح.",
+    "JoinBtnCaption": "Join online meeting",
+    "UserAlreadyHasActiveCalendarAccount": "لديك تقويم نشط بالفعل",
+    "LackOfLicenseMessage": "Calendar synchronization is not included into your current license. Please contact your system administrator for additional information.",
+    "DateRangeError": "The date range in the filter is too long. Please reduce the range in the filter."
+  },
+  "CrtIconSelectorComponent": {
+    "Tooltip": "حدد أيقونة"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "The business rule is deactivated"
+  }
+}

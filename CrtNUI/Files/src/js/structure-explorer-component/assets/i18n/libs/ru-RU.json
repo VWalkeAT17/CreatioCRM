@@ -1,0 +1,31 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Загрузка..."
+  },
+  "CopyClipboard": {
+    "Copied": "Скопировано"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Здесь еще ничего нет",
+      "Subhead": "Добавьте данные и начинайте работу"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Загрузка"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Ошибка",
+      "Default": "Подсказка"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Чат начат: {0}, ",
+        "EndDate": "Чат завершен: {0}, "
+      }
+    }
+  }
+}

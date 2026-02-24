@@ -1,0 +1,604 @@
+{
+  "DuplicatesWidgetContent": {
+    "Empty": "Nie znaleziono duplikatów",
+    "FoundDuplicates": "Możliwe zduplikowane rekordy: {0}",
+    "Caption": "Duplikaty",
+    "ProcessingDuplicates": "Przetwarzanie duplikatów"
+  },
+  "IndicatorWidget": {
+    "NoData": "Nie dotyczy.",
+    "AriaDescription": "{{chartTitle}}. Rodzaj wykresu to Metryka. Bieżąca wartość to {{ariaValue}}. Użyj klawiszy Enter lub spacji, aby zgłębić element."
+  },
+  "ChartLegend": {
+    "Title": "Legenda dla wykresu {{chartTitle}}: użyj klawiszy strzałek do nawigacji i klawisza Enter, aby otworzyć menu kontekstowe."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} wykres z \"{{chartTitle}}\" z {{groupsCount}} grupami. Wykres pokazujący \"{{groupsNames}}\". Oś X to \"{{xLabel}}\" od {{xMin}} do {{xMax}}. Oś Y to \"{{yLabel}}\" od {{yMin}} do {{yMax}}. Użyj klawiszy strzałek do nawigacji.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Użyj klawisza Enter, aby otworzyć menu kontekstowe."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. Rodzaj wykresu to Wskaźnik. Dane wahają się od {{ariaMin}} do {{ariaMax}}. Bieżąca wartość to {{ariaValue}}. Użyj klawisza enter lub klawiszy spacji, aby przejść do elementu."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Rozszerz pełny ekran dla wykresu \"{{title}}\".",
+      "CollapseLabel": "Zwiń pełny ekran dla \"{{title}}\" wykresu."
+    },
+    "Menu": {
+      "Caption": "Menu dla \"{{title}}\" wykresu.",
+      "CreateDashboard": {
+        "Caption": "Utwórz dashboard",
+        "UnableCreateMessage": "⚠️ Nie można utworzyć dashboardu. Ta strona nie ma komponentu Dashboard.\n\nMożesz przejść do innej strony, na której komponent Dashboard jest już dostępny.\n\n📘 Dowiedz się więcej o pracy z dashboardami w <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Akademii</a>"
+      }
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Ładowanie..."
+  },
+  "CopyClipboard": {
+    "Copied": "Skopiowano"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nie ma jeszcze nic do wyświetlenia ",
+      "Subhead": "Proszę najpierw dodać dane"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Rozpoczęto czat: {0} przez",
+        "EndDate": "Czat zakończony: {0} przez"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Kanał nie może zostać usunięty, istnieją aktywne czaty lub czaty na dystrybucji. Proszę najpierw uzupełnić czaty i spróbować ponownie."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Ładowanie"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Błąd",
+      "Default": "Podpowiedź"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Wybierz wartość z listy",
+      "SelectionWindowMessage": "Proszę wybrać wartość z listy lub wyszukać za pomocą okna wyszukiwania"
+    },
+    "Required": {
+      "Message": "Wpisz wartość"
+    },
+    "MaxLength": {
+      "Message": "Przekroczono maksymalną długość tekstu ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimalna długość tekstu nie została osiągnięta ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Nieprawidłowy format daty i godziny"
+    },
+    "DatePickerSyntax": {
+      "Message": "Nieprawidłowy format daty"
+    },
+    "TimePickerSyntax": {
+      "Message": "Nieprawidłowy format czasu"
+    },
+    "RegExp": {
+      "Message": "Nieprawidłowy format wartości"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kod musi zaczynać się od prefiksu \"{{schemaNamePrefix}}\"",
+      "OnlySchemaNamePrefixMessage": "Wprowadź co najmniej jeden dodatkowy symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Użyj symboli: a-z, A-Z, 0-9, podkreślenie lub myślnik. Tylko litery mogą być pierwsze."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Wartość '{{controlValue}}' już istnieje w kolumnie 'Kod'."
+    },
+    "PhoneNumber": {
+      "Message": "Wprowadź numer telefonu"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolumna usunięta",
+    "ValidationErrorMessageSingleErrorField": "Pola: {0}. Błąd: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Pola: {0}. Błąd: {1}",
+    "RefreshModelDataConflict": "Creatio ma nowe dane dla bieżącej strony. Aby je wyświetlić, zapisz lub anuluj zmiany i odśwież stronę.",
+    "WarningModelsWithCircularDependencies": "Niektóre modele mają cykliczne zależności i nie zostały załadowane",
+    "LoadingModelErrorMessage": "Wystąpił błąd podczas wykonywania zapytania",
+    "ErrorMessageOnEmptyRelationColumn": "Nie można zapisać strony. Wypełnij pole {{caption}} lub wyczyść dane w powiązanych polach, aby zapisać na stronie."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Dane zostały odświeżone"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Opisz cel użytkownika jasno i zwięźle. Szczegółowo opisz kroki potrzebne do osiągnięcia celu użytkownika. Opisz oczekiwany wynik LLM. Powinien on zawierać wszelki niezbędny kontekst lub informacje, które LLM musi znać.\n\n## Zasady ogólne\n1. Nie możesz tworzyć nowych obiektów bez wyraźnego potwierdzenia z użytkownikiem.\n2. Zasada 2: ...\n3. ...\n\n## Ograniczenia ogólne\n1. Unikaj zakładania intencji użytkownika; wyjaśniaj żądania, gdy jest to konieczne.\n2. Ograniczenie 2: ...\n3. ...\n\n## Wymagania dotyczące wyników\n1. Wynik musi mieć mniej niż 300 symboli i nie więcej niż 2-3 zdania.\n2. Wymaganie 2: ...\n3. ...\n\n## Przebieg procesu\n1. Użyj bieżącego kontekstu strony do odczytu danych i pól strony. Na podstawie tych informacji ...\n2. Krok 2: ...\n3. ..."
+    }
+  },
+  "Input": {
+    "Readonly": "Pole nieedytowalne",
+    "ShowPassword": "Pokaż hasło",
+    "HidePassword": "Ukryj hasło"
+  },
+  "Carousel": {
+    "NoData": "Brak danych",
+    "PrevButtonCaption": "Poprzedni element",
+    "NextButtonCaption": "Następny element"
+  },
+  "ComboBox": {
+    "Readonly": "Pole nieedytowalne",
+    "InvalidValueSyntax": "Wybierz wartość z listy",
+    "NoData": "Brak danych",
+    "EmptyDisplayValue": "Brak wartości do wyświetlenia",
+    "AddNewRecord": "Dodaj nowe",
+    "IsGoToSourceAllowedTooltip": "Przejdź do listy rekordów",
+    "CheckAll": "Zaznacz wszystko",
+    "ClearAll": "Wyczyść wszystko",
+    "SelectValue": "Wybierz wartość",
+    "ClearValue": "Wyczyść wartość",
+    "OpenSection": "Otwarcie sekcji"
+  },
+  "DataGrid": {
+    "AddColumns": "Dodaj kolumny",
+    "ColumnToolbar": {
+      "Hide": "Ukryj",
+      "Freeze": "Zamroź",
+      "Unfreeze": "Odmroź",
+      "Rename": "Zmień nazwę",
+      "Title": "Akcje dot. kolumny",
+      "Edit": "Właściwości",
+      "SortAscending": "Sortowanie rosnąco",
+      "SortDescending": "Sort malejąco",
+      "ClearSorting": "Wyczyść sortowanie",
+      "AriaLabel": "Akcje dot. kolumny"
+    },
+    "RowToolbar": {
+      "Open": "Otwórz",
+      "Copy": "Skopiuj",
+      "Delete": "Skasuj",
+      "RunBusinessProcess": "Uruchom proces biznesowy",
+      "Title": "Akcje wiersza"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Lista akcji dla",
+      "Title": "Lista akcji",
+      "DataGridSettingsLabel": "Ogólne ustawienia listy",
+      "SaveDataGridSettings": {
+        "Label": "Zapisz jako nowe domyślne ustawienia listy",
+        "Confirmation": "Nowe domyślne ustawienia listy zostaną zapisane dla wszystkich użytkowników. Kontynuować?",
+        "SuccessStatus": "Ustawienia zostały zapisane"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Zapisz ustawienia listy dla wszystkich użytkowników",
+        "Confirmation": "Nowe domyślne ustawienia listy zostaną zapisane i zastąpią aktualne ustawienia dla wszystkich użytkowników. Kontynuować?",
+        "SuccessStatus": "Ustawienia zostały zapisane"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Przywróć domyślne ustawienia listy",
+        "Confirmation": "Przywrócić domyślne ustawienia listy?",
+        "SuccessStatus": "Domyślne ustawienia listy przywrócone pomyślnie"
+      }
+    },
+    "AddColumnsTo": "Dodaj kolumny do",
+    "Title": "Lista {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Kolumna dodana pomyślnie",
+      "ColumnsAddedSuccessfully": "Kolumny dodano pomyślnie",
+      "ColumnHiddenSuccessfully": "Kolumna ukryta pomyślnie",
+      "ColumnFrozenSuccessfully": "Kolumna zamrożona pomyślnie",
+      "ColumnUnfrozenSuccessfully": "Kolumna odblokowana pomyślnie",
+      "ColumnChangedSuccessfully": "Kolumna zmieniona pomyślnie"
+    }
+  },
+  "DataTable": {
+    "NoData": "Brak danych",
+    "NoColumns": "Nie dodano kolumn",
+    "Hints": {
+      "Sort": "Sortuj",
+      "StartEditing": "Edycja",
+      "ReadonlyCell": "Pole nieedytowalne",
+      "CancelChanges": "Odrzuć",
+      "AddItem": "Dodaj nowy rekord",
+      "SortWithCaption": "Sortuj {0}",
+      "NotSorted": "obecnie nie posortowane",
+      "SortedAscending": "obecnie posortowane rosnąco",
+      "SortedDescending": "obecnie posortowane malejącej",
+      "SortAscending": "Sortowanie rosnąco",
+      "SortDescending": "Sort malejąco",
+      "RowControls": "Kontrola wierszy"
+    },
+    "SaveItemsChanges": "Zapisz wszystko",
+    "CancelItemsChanges": "Odrzuć",
+    "AddItem": "Nowy",
+    "BulkActions": {
+      "MoreActions": "Więcej akcji",
+      "AriaLabel": "Akcje zbiorowe dla {0}"
+    },
+    "RowsSelection": {
+      "Selected": "zaznaczone",
+      "SelectAll": "Zaznacz wszystko",
+      "ClearSelection": "Wyczyść zaznaczenie",
+      "SelectRow": "Wybierz wiersz",
+      "RowsSelected": "Wybrane wiersze: {0}"
+    },
+    "NotFoundColumn": "Nie znaleziono kolumny",
+    "ColumnSticky": "Zamrożona kolumna",
+    "StatusBar": {
+      "AriaLabel": "Edytuj akcje dla {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Zmień szerokość",
+      "ChangeWidthOf": "Zmień szerokość {0}"
+    }
+  },
+  "Gallery": {
+    "NoData": "Brak danych",
+    "MenuActions": "Akcje",
+    "DateAdded": "Data dodana",
+    "SelectItem": "Wybierz element",
+    "Item": {
+      "ActionsButtonCaption": "Akcje elementu"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Tak",
+      "False": "Nie"
+    }
+  },
+  "FileInput": {
+    "Delete": "Skasuj",
+    "Cancel": "Anuluj",
+    "Attach": "Dołącz",
+    "FileIcon": "Ikona pliku",
+    "EmptyFileName": "Pusta nazwa pliku",
+    "MaxFileSizeLimitReached": "Osiągnięto maksymalny rozmiar pliku ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Zapisz",
+    "CancelButton": "Anuluj",
+    "ColumnProperties": "Właściwości kolumny",
+    "Title": "Tytuł",
+    "FilterHeader": "Jak filtrować rekordy",
+    "SortingHeader": "Sortowanie rekordów",
+    "SortColumn": "Sortuj według",
+    "WhatToDisplay": "Co wyświetlić",
+    "AggregationColumn": "Kolumna",
+    "SortOrder": "Kolejność sortowania",
+    "SetupFilters": "Ustawienia filtrów",
+    "EditFilters": "Edytuj filtrów"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Upuść pliki tutaj",
+      "Description": "lub użyj",
+      "Upload": "Załaduj"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "o",
+    "TodayAt": "Dzisiaj o {0}",
+    "YesterdayAt": "Wczoraj o {0}",
+    "DayBeforeYesterdayAt": "Dzień przedwczoraj o {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Brak wartości do wyświetlenia"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Otwórz link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Wyślij email"
+  },
+  "ImageInput": {
+    "Alt": "Obrazek pola",
+    "Upload": "Załaduj",
+    "Clear": "Wyczyść",
+    "Change": "Zmiana",
+    "AltAbbreviation": "Obraz skrótu",
+    "AltIcon": "Pole puste symbol zastępczy"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "msc",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "godz.",
+    "MinutesAbbreviation": "min."
+  },
+  "TabPanel": {
+    "CloseTabHint": "Zamknij zakładkę"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Uruchomić proces",
+      "SuccessMessage": "Proces został pomyślnie uruchomiony",
+      "NotConfiguredQuickProcessesMessage": "Szybkie uruchamianie procesów nie jest jeszcze skonfigurowane",
+      "OtherProcessesCaption": "Inne procesy"
+    },
+    "Settings": {
+      "Title": "Ustawienia"
+    },
+    "UserProfile": {
+      "Title": "Twój profil",
+      "MenuItems": {
+        "Profile": "Twój profil",
+        "Logout": "Wyjście",
+        "OrganizationProfile": "Profil organizacji"
+      }
+    },
+    "New": {
+      "Title": "Nowy",
+      "NoItemTitle": "Szybkie uruchamianie procesów nie jest jeszcze skonfigurowane"
+    },
+    "Help": {
+      "Title": "Potrzebna pomoc",
+      "SupportSubject": "Pytanie o",
+      "MenuItems": {
+        "OnlineHelp": "Pomoc online",
+        "NeedHelp": "Potrzebna pomoc",
+        "ExternalAccess": "Przyznaj dostęp dla wsparcia",
+        "ReleaseNotes": "Informacje o wersji"
+      },
+      "EmailBodyTemplate": "treść=%0D%0A%0D%0AStrona: {0}%0D%0AIdentfikator klienta: {1}%0D%0AProdukt: {2}%0D%0AWersja: {3}%0D%0ARozmiar ekranu: {4}%0D%0ALokalizacja: {5}%0D%0AStrona: {6}",
+      "AccessGrantedMessage": "Dostęp został przyznany",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Panel komunikacji"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Centrum powiadomień"
+    },
+    "Logo": {
+      "Title": "Przejdź do pulpitu"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Konfiguracja"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Panel rozszerzeń"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Błędy kompilacji",
+      "WorkspaceExplorerTemplate": "Aby wyświetlić listę błędów kompilacji i naprawić je, przejdź do sekcji <a href ='{0}' target='_blank'>Sekcja Konfiguracji</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Panel nawigacyjny"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Szczegóły błędu:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Ograniczony tryb konfiguracji",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Przekierowane do zwykłego węzła aplikacji. Nie używaj go do dostosowywania, ponieważ zmiany mogą nie być dystrybuowane do innych węzłów. Węzeł projektowy może być niedostępny z różnych powodów. Możesz dowiedzieć się więcej w dziennikach programu Creatio i/lub orkiestratora. Rutynowe korzystanie może być kontynuowane."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Szukaj..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Zwiń panel nawigacyjny",
+      "ExpandCaption": "Rozwiń panel nawigacji"
+    },
+    "SearchResultsCaption": "Wyniki wyszukiwania",
+    "EmptySearchResult": {
+      "Title": "Brak rekordów spełniających kryteria wyszukiwania.",
+      "Subhead": "Wyczyść lub zmień kryteria wyszukiwania."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Czytaj więcej"
+  },
+  "Timer": {
+    "timePassedTpl": "Przesłano {0}",
+    "timeBeforeCountStartTpl": "{0} przed rozpoczęciem odliczania",
+    "overdueTpl": "{0} przeterminowane",
+    "timeLeftTpl": "{0} pozostało",
+    "timeIsUpTpl": "Czas minął",
+    "waitingForStartDateTpl": "Oczekiwanie na datę rozpoczęcia",
+    "dateNotSet": "0 godz. 0 min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Wszystko",
+      "SelectMenuLabel": "Szukaj według kolumny",
+      "Title": "Wybierz kolumnę filtrującą"
+    },
+    "ClearIconTitle": "Wyczyść wyszukiwanie"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Tak",
+    "No": "Nie",
+    "Save": "Zapisz",
+    "DoNotSave": "Nie zapisuj",
+    "Cancel": "Anuluj",
+    "Delete": "Usuń",
+    "Close": "Zamknij",
+    "Notification": "Powiadomienie",
+    "Overwrite": "Nadpisz",
+    "ProcessSchemaSavedWithValidationError": "Schemat procesu zapisany pomyślnie, ale błędy walidacji uniemożliwiają jego uruchomienie."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Zapisano pomyślnie",
+      "ErrorOnSave": "Błąd podczas próby wprowadzenia zmian"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Czy na pewno chcesz usunąć pulpit \"{0}\"?",
+        "Error": {
+          "Deletion": "Błąd podczas usuwania pulpitu",
+          "Configuration": "Błąd podczas kompilacji konfiguracji"
+        },
+        "Success": "Pulpit \"{0}\" został usunięty"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Szukaj..."
+  },
+  "AllowedResults": {
+    "Caption": "Dozwolone wyniki",
+    "TaskCompleted": "Zadanie zostało zakończone."
+  },
+  "LicenseIndicator": {
+    "Title": "Wymagana licencja"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Dodaj tag",
+    "CreateNewTagButtonCaption": "Utwórz nowy tag"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Masz niezapisane zmiany, które zostaną utracone. Czy kontynuować?"
+    },
+    "List": {
+      "Message": "Lista zawiera niezapisane zmiany. Zostaną utracone, jeśli kontynuujesz. Czy zapisać zmiany?"
+    },
+    "Page": {
+      "Message": "Ta strona zawiera niezapisane zmiany. Zostaną utracone, jeśli kontynuujesz. Czy zapisać zmiany?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Edytuj rekord",
+    "DeleteItemActionButtonCaption": "Usuń rekord",
+    "NoData": "Brak danych"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Brak danych",
+      "CloseButtonTitle": "Zamknij"
+    },
+    "AriaLabel": "Wybrane elementy",
+    "Chip": {
+      "RemoveButtonCaption": "Usuń"
+    },
+    "AriaLabelFor": "Wybrane elementy dla"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "Komponent wyświetla wskazówki i instrukcje dla użytkowników dotyczące dostępu do informacji z bazy wiedzy dla poszczególnych dynamicznych etapów sprawy",
+    "Placeholder": {
+      "Title": "Nie znaleziono odpowiednich artykułów z playbooka",
+      "Description": "Proszę ustawić odpowiedni artykuł dla aktualnego dynamicznego etapu sprawy w sekcji Playbooks"
+    },
+    "Actions": {
+      "Back": "Wstecz",
+      "OpenInDialog": "Otwórz w oknie modalnym"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Zamknij",
+        "OpenPage": "Otwórz w nowej karcie"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Autoryzacja nie powiodła się. Spróbuj ponownie później lub poproś administratora o pomoc.",
+      "FormatError": "Nieprawidłowy format w żądaniu. Upewnij się, że dane wejściowe są poprawnie uporządkowane i sprawdź parametry wyjściowe swoich działań.",
+      "LimitError": "Osiągnięto limit tokenów, dalsza praca z Creatio Ai jest zablokowana. Skontaktuj się ze swoim administratorem, aby uzupełnić tokeny Creatio Ai.",
+      "ServiceAvailabilityError": "Usługa jest tymczasowo niedostępna. Spróbuj ponownie później.",
+      "ExecutionError": "Wystąpił błąd podczas przetwarzania żądania. Spróbuj ponownie lub poproś administratora o pomoc.",
+      "ConfigurationError": "Wykryto problem z konfiguracją. Sprawdź ustawienia systemu lub poproś administratora o pomoc.",
+      "UnknownError": "Wystąpił nieznany błąd. Spróbuj ponownie później lub poproś administratora o pomoc.",
+      "CharacterLimitExceededError": "Osiągnięto limit znaków w zapytaniu użytkownika. Sprawdź ustawienia systemu lub poproś administratora o pomoc.",
+      "ToolCallsInvokesLimitExceeded": "Przekroczono limit wywołań funkcji: zbyt wiele kolejnych zautomatyzowanych wywołań bez interakcji użytkownika lub powtarzające się wykonywanie tej samej funkcji.",
+      "InsufficientPermissions": "Nie masz uprawnień do korzystania z tego agenta lub umiejętności. Skontaktuj się ze swoim administratorem, aby uzyskać dostęp."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Brak danych",
+    "Boolean": {
+      "Yes": "Tak",
+      "No": "Nie"
+    },
+    "String": {
+      "Placeholder": "Wpisz tekst"
+    },
+    "Numeric": {
+      "Placeholder": "Wprowadź liczbę",
+      "To": "do",
+      "MaxValueError": "Wartość jest większa niż maksymalna wartość",
+      "MinValueError": "Wartość jest niższa niż wartość minimalna"
+    }
+  },
+  "Conversation": {
+    "Caption": "Rozmowa",
+    "Copilot": {
+      "TypingMessage": "Generowanie odpowiedzi",
+      "Action": {
+        "Replace": "Zastąp wybór",
+        "InsertAbove": "Wstaw powyżej",
+        "InsertBelow": "Wstaw poniżej"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "Skasuj",
+    "Export": "Eksportuj do Excel",
+    "AddTag": "Dodaj tag",
+    "RemoveTag": "Usuń tag",
+    "RowsSelection": {
+      "Selected": "zaznaczone",
+      "SelectAll": "Wybierz wszystkie",
+      "ClearSelection": "Wyczyść zaznaczenie"
+    },
+    "Merge": "Scal"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Ścieżki"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "z powiadomieniami"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Numer"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Zwiń",
+    "Expand": "Rozwiń"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Pasek postępu"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Status czatu",
+    "CtiStatesMenuCaption": "Stan telefonii"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nie ma strony dla nowego lub istniejącego wpisu. Administrator systemu musi sprawdzić ustawienia przycisków w interfejsie Freedom UI",
+    "GoToEntityDesignerMessage": "Aby skonfigurować strony, przejdź do adresu URL: {0}"
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Zadzwoń"
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Następny miesiąc",
+    "AriaPrevMonthLabel": "Poprzedni miesiąc",
+    "AriaNextYearLabel": "Przyszły rok",
+    "AriaPrevYearLabel": "Poprzedni rok",
+    "Readonly": "Pole nieedytowalne",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Kalendarz",
+    "TimePickerIconTitle": "Czas"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Pokaż oryginalny",
+      "Original": "Tłumaczenie"
+    }
+  }
+}
