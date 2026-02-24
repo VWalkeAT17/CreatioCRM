@@ -1,1 +1,0 @@
-(self.webpackChunkapp_studio_enterprise_structure_explorer=self.webpackChunkapp_studio_enterprise_structure_explorer||[]).push([[8344,5963],{78344:(p,s,e)=>{e.r(s),e.d(s,{coerceObservable:()=>n});var u=e(62278);function n(r){return(0,u.isObservable)(r)?r:(0,u.of)(r)}}}]);

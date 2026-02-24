@@ -1,9 +1,0 @@
-﻿Terrasoft.configuration.writeBackgroundStyles([
-  ".x-navigation.x-layout-card-item",
-  ".x-picker.ts-fullscreen-picker.ts-extended-filters-picker",
-  ".x-picker.ts-fullscreen-picker.x-select-picker.x-lookup-picker",
-  ".x-picker.ts-fullscreen-picker.x-select-picker.x-combobox-picker",
-  ".x-picker.ts-extended-filters-common-picker",
-  ".ts-fullscreen-picker.ts-folders-picker",
-  ".ts-fullscreen-picker.x-calendar-period-picker"
-]);

@@ -1,5 +1,0 @@
-<Project>
-	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
-		<Compile Include="$(PkgPath)/CrtWebFarm/Schemas/SysWebFarmSettings/SysWebFarmSettings.cs" Condition="Exists('$(PkgPath)/CrtWebFarm/Schemas/SysWebFarmSettings/SysWebFarmSettings.cs')" />
-	</ItemGroup>
-</Project>

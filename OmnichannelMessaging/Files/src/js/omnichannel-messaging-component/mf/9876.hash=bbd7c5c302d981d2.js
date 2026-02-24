@@ -1,1 +1,0 @@
-(self.webpackChunkapp_studio_enterprise_omnichannel_messaging=self.webpackChunkapp_studio_enterprise_omnichannel_messaging||[]).push([[9876,7495],{79876:(a,e,n)=>{n.r(e),n.d(e,{VERSION:()=>_});var s=n(22307);const _=new s.Version("18.2.14")}}]);

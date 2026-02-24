@@ -1,1 +1,0 @@
-(self.webpackChunkapp_studio_enterprise_omnichannel_messaging=self.webpackChunkapp_studio_enterprise_omnichannel_messaging||[]).push([[8344,5963],{78344:(u,s,e)=>{e.r(s),e.d(s,{coerceObservable:()=>i});var r=e(62278);function i(n){return(0,r.isObservable)(n)?n:(0,r.of)(n)}}}]);
